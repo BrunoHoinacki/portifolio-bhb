@@ -1,0 +1,5 @@
+<template>
+    <div class="flex flex-col items-center text-center md:pt-40 p-16">
+        <p class="text-green-500 text-4xl md:text-7xl p-3">Obrigado!</p>
+    </div>
+</template>
