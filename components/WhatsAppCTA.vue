@@ -15,7 +15,7 @@ import 'animate.css'
                             <p class="text-lg font-medium text-white">WhatsApp</p>
                         </div>
                         <button @click="isOpen = false" class="hover:rotate-12 hover:scale-110" title="Fechar">
-                            <img src="@/assets/icon/close.svg" alt="Fechar" class="w-8 h-8">
+                            <img src="@/assets/icon/close.svg" alt="Fechar" class="w-7 h-7">
                         </button>
                     </div>
 
