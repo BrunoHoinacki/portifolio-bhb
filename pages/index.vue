@@ -1,9 +1,9 @@
 <template>
-  <div class="flex pt-[40px] flex-col items-center">
-    <h1 class="text-7xl text-green-500">Bem vindo!</h1>
-    <div class="flex flex-col items-center text-3xl">
-      <p>Hora atual: {{ formattedTime }}</p> 
-      <p>
+  <div class="flex pt-[40px] text-[16px] flex-col mb:items-center">
+    <h1 class="mb:text-7xl text-center text-3xl text-green-500">Bem vindo!</h1>
+    <div class="md:flex md:flex-col mx-auto items-center">
+      <p class="flex justify-center">Hora atual: {{ formattedTime }}</p>
+      <p class="flex justify-center">
         Data de hoje: {{ formattedDate }}
       </p>
     </div>
@@ -35,7 +35,7 @@ export default {
     formattedDate() {
       return this.formatDate(new Date());
     },
-    formattedTime() { 
+    formattedTime() {
       return this.formatTime(new Date());
     }
   }
