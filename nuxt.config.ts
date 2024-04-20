@@ -4,7 +4,7 @@ export default defineNuxtConfig({
       htmlAttrs: {
         lang: 'pt-br' 
       },
-      title: 'Portfólio Bruno Hoinacki - Desenvolvedor Fullstack',
+      title: 'Bruno Hoinacki - Desenvolvedor Fullstack',
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
