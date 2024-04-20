@@ -1,8 +1,23 @@
 export default defineNuxtConfig({
   app: {
     head: {
-      charset: 'utf-8',
-      viewport: 'width=device-width, initial-scale=1',
+      htmlAttrs: {
+        lang: 'pt-br' 
+      },
+      title: 'Portfólio Bruno Hoinacki - Desenvolvedor Fullstack',
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        { name: 'description', content: 'Conheça o portfólio de Bruno Hoinacki, desenvolvedor web especializado em criar experiências digitais incríveis.' },
+        { name: 'author', content: 'Bruno Hoinacki' },
+        { name: 'robots', content: 'index, follow' } 
+      ],
+      script: [
+        { innerHTML: 'console.log(\'Funcionando\')' }
+      ],
+      bodyAttrs: {
+        class: 'test'
+      }
     }
   },
   modules: ['@nuxtjs/color-mode'],
