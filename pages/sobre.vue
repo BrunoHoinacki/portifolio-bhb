@@ -1,5 +1,5 @@
 <template>
-  <section class="text-green-500 pt-[80px]">
+  <section class="text-green-500">
     <p>Está é a pagina sobre</p>
   </section>
 </template>

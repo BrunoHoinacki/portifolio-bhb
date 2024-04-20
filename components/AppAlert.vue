@@ -1,5 +1,5 @@
 <template>
-    <span class="bg-yellow-500 text-white">
+    <span class="bg-red-500 text-white">
         Sou um alert
         <slot />
     </span>
