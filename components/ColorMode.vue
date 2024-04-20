@@ -1,24 +1,30 @@
 <template>
     <div>
-        <h1>Color mode: {{ $colorMode.value }}</h1>
-        <select class="bg-green-600 rounded" v-model="$colorMode.preference">
-            <option value="system">System</option>
-            <option value="light">Light</option>
-            <option value="dark">Dark</option>
-            <option value="sepia">Sepia</option>
-        </select>
+        <h1 class="text-1xl">Modo: {{ colorMode.preference }}</h1>
+        <div @click="toggleColorMode"
+            class="relative w-14 h-7 flex items-center bg-green-600 rounded-full p-1 cursor-pointer overflow-hidden">
+            <img v-if="colorMode.preference === 'light'" src="assets/icon/jam/sun.svg"
+                class="w-6 h-6 transform translate-x-1 transition-transform duration-300 bg-yellow-500 rounded-full" alt="Sol">
+            <img v-else src="assets/icon/jam/moon.svg"
+                class="w-6 h-6 transform translate-x-6 transition-transform duration-300 bg-gray-400 rounded-full" alt="Lua">
+        </div>
     </div>
 </template>
+
+
 <script setup>
+
 const colorMode = useColorMode()
 
-console.log(colorMode.preference)
+function toggleColorMode() {
+    colorMode.preference = colorMode.preference === 'dark' ? 'light' : 'dark'
+}
 </script>
-
 <style>
 body {
-    background-color: #fff;
-    color: rgba(0, 0, 0, 0.8);
+    transition: background-color 0.3s, color 0.3s;
+    color: rgb(10, 116, 10);
+    font-weight: bold;
 }
 
 .dark-mode body {
@@ -26,8 +32,7 @@ body {
     color: #ebf4f1;
 }
 
-.sepia-mode body {
-    background-color: #f1e7d0;
-    color: #433422;
+div.relative div {
+    transition: transform 0.3s ease-in-out;
 }
 </style>
