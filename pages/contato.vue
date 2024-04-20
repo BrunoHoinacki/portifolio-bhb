@@ -5,35 +5,37 @@
                 <h2 class="text-3xl font-semibold mb-6">Contate-me</h2>
                 <p class="mb-4">Precisa de ajuda?</p>
                 <p class="mb-4">Email: <a href="mailto:brunohoinackib@gmail.com"
-                        class="text-green-500 hover:text-green-300">brunohoinackib@gmail.com</a></p>
-                <p class="mb-4">Telefone: <a href="tel:+5551980456224" class="text-green-500 hover:text-green-300">(51)
+                        class="text-white hover:text-green-300">brunohoinackib@gmail.com</a></p>
+                <p class="mb-4">Telefone: <a href="tel:+5551980456224" class="text-white hover:text-green-300">(51)
                         9
                         8045-6224</a></p>
-                <p class="mb-4">Endereço: Rua 15 de outubro, 100 - Vale dos pinheiros, Gramado - RS</p>
+                <p class="mb-4">Endereço: Rua 15 de outubro, 100 - Vale dos pinheiros, Gramado - RS</p>
             </div>
             <div class="w-full md:w-1/2 md:pl-10">
                 <div class="bg-green-600 p-5 md:p-6 rounded-lg">
-                    <h3 class="text-xl font-semibold mb-6">Aumente o nível da sua marca</h3>
+                    <h3 class="text-xl md:text-3xl font-semibold mb-6">Aumente o nível da sua marca</h3>
                     <form class="space-y-4" action="https://formsubmit.co/brunohoinackib@gmail.com" method="POST">
-                    <div>
-                        <input type="text" name="text" placeholder="Nome e sobrenome"
-                            class="w-full p-2 rounded-md bg-gray-800 border border-gray-700 text-white">
-                    </div>
-                    <div>
-                        <input type="email" name="email" placeholder="Email"
-                            class="w-full p-2 rounded-md bg-gray-800 border border-gray-700 text-white">
-                    </div>
-                    <div>
-                        <input type="tel" name="tel" placeholder="Número de telefone"
-                            class="w-full p-2 rounded-md bg-gray-800 border border-gray-700 text-white">
-                    </div>
-                    <div>
-                        <textarea name="message" placeholder="Como posso te ajudar?"
-                            class="w-full p-2 rounded-md bg-gray-800 border border-gray-700 text-white"
-                            rows="4"></textarea>
-                    </div>
-                    <button type="submit"
-                        class="w-full p-2 rounded-md bg-gray-700 hover:bg-gray-600 text-white">Encaminhar</button>
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_next" value="https://www.brunohoinacki.site/obrigado">
+                        <div>
+                            <input type="text" name="text" id="text" placeholder="Nome e sobrenome" required
+                                class="w-full p-2 rounded-md bg-gray-800 border border-gray-700 text-white focus:outline-none focus:border-green-500 focus:bg-gray-900 hover:bg-gray-900">
+                        </div>
+                        <div>
+                            <input type="email" name="email" id="email" placeholder="Email" required
+                                class="w-full p-2 rounded-md bg-gray-800 border border-gray-700 text-white focus:outline-none focus:border-green-500 focus:bg-gray-900 hover:bg-gray-900">
+                        </div>
+                        <div>
+                            <input type="tel" name="tel" id="tel" placeholder="Número de telefone"
+                                class="w-full p-2 rounded-md bg-gray-800 border border-gray-700 text-white focus:outline-none focus:border-green-500 focus:bg-gray-900 hover:bg-gray-900">
+                        </div>
+                        <div>
+                            <textarea name="message" id="message" placeholder="Como posso te ajudar?"
+                                class="w-full p-2 rounded-md bg-gray-800 border border-gray-700 text-white focus:outline-none focus:border-green-500 focus:bg-gray-900 hover:bg-gray-900"
+                                rows="4"></textarea>
+                        </div>
+                        <button type="submit"
+                            class="w-full p-2 rounded-md bg-gray-700 hover:bg-gray-600 text-white hover:text-gray-300">Encaminhar</button>
                     </form>
                 </div>
             </div>
