@@ -1,4 +1,5 @@
 export default defineNuxtConfig({
+  modules: ['@nuxtjs/color-mode'],
   app: {
     head: {
       charset: 'utf-8',
