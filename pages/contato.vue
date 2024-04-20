@@ -1,7 +1,7 @@
 <template>
-    <div class="flex flex-col items-center">
+    <div class="flex flex-col items-center pt-6">
         <p class="text-green-500 text-7xl p-3">Contatos:</p>
-        <div class="flex space-x-4">
+        <div class="flex flex-col text-4xl items-center pt-4 pb-[40px]">
             <a href="https://github.com/brunohoinacki" target="_blank">Github</a>
             <a href="https://www.linkedin.com/in/brunohoinacki/" target="_blank">Linkedin</a>
             <a href="https://www.instagram.com/this.bruno_hoinacki/" target="_blank">Instagram</a>

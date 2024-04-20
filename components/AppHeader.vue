@@ -1,6 +1,6 @@
 <template>
     <header class="fixed top-0 left-0 w-full bg-green-500 text-white py-4 text-center">
-        <div class="container mx-auto flex justify-between items-center">
+        <div class="container mx-auto p-3 flex justify-between items-center">
             <ColorMode />
             <nav>
                 <ul class="flex space-x-4">
