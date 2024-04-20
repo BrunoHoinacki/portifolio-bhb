@@ -8,6 +8,10 @@
 
 <script setup lang="ts">
 useHead({
+  title: 'Site Bruno Hoinacki',
+  meta: [
+    { name: 'description', content: 'Site de portifolio de Bruno Hoinacki.' }
+  ],
   bodyAttrs: {
     class: 'test'
   },
