@@ -1,10 +1,12 @@
 <template>
     <div>
-        <WhatsappCTA class="animate__animated animate__slideInRight"/>
-        <footer class="fixed bottom-0 left-0 w-full bg-green-500 text-white py-4 text-center animate__animated animate__slideInUp">
+        <WhatsappCTA class="animate__animated animate__slideInRight" />
+        <footer
+            class="fixed bottom-0 left-0 w-full bg-green-500 text-white py-4 text-center animate__animated animate__slideInUp">
             <div class="container mx-auto">
                 <span>
-                    Desenvolvido por <a href="https://github.com/brunohoinacki" target="_blank">Bruno Hoinacki</a>
+                    <a href="https://linkedin.com/in/brunohoinackib" target="_blank">Copyright © 1999-2024 Bruno Inacio
+                        Hoinacki Bueno. CNPJ n.º 53.329.473/0001-01 </a>
                 </span>
             </div>
         </footer>
