@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1 class="text-1xl">Modo: {{ colorMode.preference }}</h1>
+        <h1 class="text-[16px]">Modo: {{ colorMode.preference }}</h1>
         <div @click="toggleColorMode"
             class="relative w-14 h-7 flex items-center bg-green-600 rounded-full p-1 cursor-pointer overflow-hidden">
             <img v-if="colorMode.preference === 'light'" src="assets/icon/jam/sun.svg"
@@ -31,6 +31,7 @@ body {
     background-color: #091a28;
     color: #ebf4f1;
 }
+
 
 div.relative div {
     transition: transform 0.3s ease-in-out;
