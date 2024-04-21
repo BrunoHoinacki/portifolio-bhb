@@ -21,6 +21,24 @@ export default defineNuxtConfig({
     }
   },
   modules: ['@nuxtjs/color-mode', '@nuxtjs/tailwindcss'],
+  tailwindcss: {
+    cssPath: '~/assets/css/tailwind.css',
+  },
   devtools: { enabled: true },
   css: ['animate.css/animate.min.css'],
+  build: {
+    postcss: {
+      plugins: {
+        'postcss-url': false,
+        'postcss-nested': {},
+        'postcss-responsive-type': {},
+        'postcss-hexrgba': {}
+      },
+      preset: {
+        autoprefixer: {
+          grid: true
+        }
+      }
+    }
+  }
 })
