@@ -26,19 +26,4 @@ export default defineNuxtConfig({
   },
   devtools: { enabled: true },
   css: ['animate.css/animate.min.css'],
-  build: {
-    postcss: {
-      plugins: {
-        'postcss-url': false,
-        'postcss-nested': {},
-        'postcss-responsive-type': {},
-        'postcss-hexrgba': {}
-      },
-      preset: {
-        autoprefixer: {
-          grid: true
-        }
-      }
-    }
-  }
 })
