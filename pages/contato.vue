@@ -1,5 +1,5 @@
 <template>
-    <div class="px-4 pt-4 pb-20">
+    <div class="px-4 pt-4 pb-20 animate__animated animate__zoomInDown">
         <div class="container mx-auto flex flex-wrap justify-between items-start md:pt-2">
             <div class="rounded-lg w-full lg:w-1/2 mb-3 lg:mb-0">
                 <h2 class="text-3xl font-semibold mb-6">Contate-me</h2>

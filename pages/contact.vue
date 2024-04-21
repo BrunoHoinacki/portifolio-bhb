@@ -70,8 +70,11 @@
                             class="bg-transparent rounded-lg px-2 py-4 ring-2 ring-green-500/20 hover:ring-green-500 focus:outline-none focus:border-green-500 "
                             rows="7" cols="50"></textarea>
                     </div>
+                    <button class="bg-green-500">
+                        Get Started
+                    </button>
                     <button
-                        class="w-fit mx-auto p-3 rounded-xl bg-green-500 hover:bg-green-600 px-2 !my-10 hover:scale-105 hover:shadow-lg hover:shadow-[#075E54]/30 transition-all duration-300 ease-in-out">
+                        class="w-fit mx-auto p-3 rounded-xl bg-green-500 hover:bg-green-600 px-2 !my-10">
                         Get Started
                     </button>
                 </div>

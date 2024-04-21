@@ -1,5 +1,5 @@
 <template>
-    <header class="fixed top-0 left-0 w-full bg-green-500 text-white">
+    <header class="fixed top-0 left-0 w-full bg-green-500 text-white animate__animated animate__slideInDown">
         <div class="container mx-auto p-3 flex items-center justify-between">
             <div class="flex items-center">
                 <ColorMode class="mr-3" />

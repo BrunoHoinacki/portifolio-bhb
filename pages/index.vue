@@ -1,5 +1,5 @@
 <template>
-  <div class="flex pt-[40px] text-[16px] flex-col mb:items-center">
+  <div class="flex pt-[40px] text-[16px] flex-col mb:items-center animate__animated animate__zoomInDown">
     <h1 class="mb:text-7xl text-center text-5xl">Bem vindo!</h1>
     <div class="md:flex md:flex-col mx-auto items-center">
       <p class="flex justify-center">Hora atual: {{ formattedTime }}</p>
