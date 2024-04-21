@@ -12,7 +12,7 @@
                 <p class="mb-4">Endereço: Rua 15 de outubro, 100 - Vale dos pinheiros, Gramado - RS</p>
             </div>
             <div class="w-full md:w-1/2">
-                <div class=" border border-green-500 p-5 md:p-6 rounded-lg">
+                <div class=" border border-green-500 p-5 mb-4 mb:mb-0 md:p-6 rounded-lg">
                     <h3 class="text-xl md:text-3xl font-semibold mb-6">Aumente o nível da sua marca</h3>
                     <form class="space-y-4" action="https://formsubmit.co/brunohoinackib@gmail.com" method="POST">
                         <input type="hidden" name="_captcha" value="false">
