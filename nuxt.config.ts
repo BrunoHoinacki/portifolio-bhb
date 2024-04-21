@@ -20,13 +20,7 @@ export default defineNuxtConfig({
       }
     }
   },
-  modules: ['@nuxtjs/color-mode'],
+  modules: ['@nuxtjs/color-mode', '@nuxtjs/tailwindcss'],
   devtools: { enabled: true },
-  css: ['~/assets/css/main.css', 'animate.css/animate.min.css'],
-  postcss: {
-    plugins: {
-      tailwindcss: {},
-      autoprefixer: {},
-    },
-  },
+  css: ['animate.css/animate.min.css'],
 })
