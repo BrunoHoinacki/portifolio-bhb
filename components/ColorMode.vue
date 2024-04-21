@@ -32,7 +32,6 @@ body {
     color: #ebf4f1;
 }
 
-
 div.relative div {
     transition: transform 0.3s ease-in-out;
 }

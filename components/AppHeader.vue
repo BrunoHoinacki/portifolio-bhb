@@ -14,9 +14,9 @@
                 </div>
                 <nav class="hidden md:block">
                     <ul class="flex space-x-4">
-                        <li><nuxt-link to="/">Página Inicial</nuxt-link></li>
-                        <li><nuxt-link to="/sobre">Sobre</nuxt-link></li>
-                        <li><nuxt-link to="/contato">Contato</nuxt-link></li>
+                        <li class="transition ease-in-out duration-300 delay-150 hover:scale-105"><nuxt-link to="/">Página Inicial</nuxt-link></li>
+                        <li class="transition ease-in-out duration-300 delay-150 hover:scale-105"><nuxt-link to="/sobre">Sobre</nuxt-link></li>
+                        <li class="transition ease-in-out duration-300 delay-150 hover:scale-105"><nuxt-link to="/contato">Contato</nuxt-link></li>
                     </ul>
                 </nav>
             </div>

@@ -34,8 +34,8 @@
                                 class="w-full p-2 rounded-md border border-green-500 focus:outline-none focus:border-green-500 bg-transparent hover:border-green-700"
                                 rows="4"></textarea>
                         </div>
-                        <button type="submit"
-                            class="w-full p-2 rounded-md bg-green-500 hover:bg-green-600 text-white hover:text-gray-300">Encaminhar</button>
+                        <button type="submit" class="w-full p-2 rounded-md bg-green-500 hover:bg-green-600 text-white hover:text-gray-300 transition ease-in-out delay-150 hover:scale-105 duration-700 
+                            ">Encaminhar</button>
                     </form>
                 </div>
             </div>
