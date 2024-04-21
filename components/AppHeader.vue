@@ -21,8 +21,8 @@
                 </nav>
             </div>
         </div>
-        <nav class="md:hidden">
-            <ul :class="dropdownOpen ? 'flex' : 'hidden'" class="flex-col items-center absolute w-full bg-green-500">
+        <nav class="md:hidden z-50">
+            <ul :class="dropdownOpen ? 'flex' : 'hidden'" class="flex-col items-center absolute w-full bg-green-500 z-20">
                 <li><nuxt-link to="/">Página Inicial</nuxt-link></li>
                 <li><nuxt-link to="/sobre">Sobre</nuxt-link></li>
                 <li><nuxt-link to="/contato">Contato</nuxt-link></li>
@@ -44,3 +44,10 @@ export default {
     },
 };
 </script>
+<style>
+header {
+    position: relative;
+    z-index: 30;
+}
+</style>
+
