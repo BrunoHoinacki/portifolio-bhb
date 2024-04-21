@@ -1,33 +1,21 @@
-import 'animate.css'
-
 <template>
     <div class="fixed right-6 bottom-[80px]">
-
         <transition enter-active-class="animate__animated animate__fadeInRight" mode="out-in">
-            <!-- CARD TO SEND MESSAGE -->
             <div v-if="isOpen">
                 <div class="w-96 max-w-[90vw] rounded-3xl overflow-hidden shadow-2xl shadow-[#075E54]/50 bg-[#E7E7E7]">
-
-                    <!-- Header and close button -->
                     <div class="h-20 p-5 flex items-center justify-between gap-4 bg-[#25D366]">
                         <div class="flex items-center gap-3">
                             <img class="w-7 h-28" src="@/assets/icon/footer/whatsapp.svg" alt="WP">
                             <p class="text-lg font-medium text-white">WhatsApp</p>
                         </div>
-                        <button @click="isOpen = false" class="hover:rotate-12 hover:scale-110" title="Fechar">
+                        <button @click="closeWhatsAppCard" class="hover:rotate-12 hover:scale-110" title="Fechar">
                             <img src="@/assets/icon/close.svg" alt="Fechar" class="w-7 h-7">
                         </button>
                     </div>
-
-
-                    <!-- Message input -->
                     <div class="p-4 py-6">
                         <input type="text" name="message" id="message" v-model="form.message" maxlength="140"
-                            title="Mensagem" class="w-full px-4 py-4 rounded-full text-sm border-none text-[#075E54]">
+                            title="Mensagem" class="w-full px-4 py-4 rounded-full text-sm focus:outline-green-500 border-2 border-green-500 text-[#25D366]">
                     </div>
-
-
-                    <!-- Send button -->
                     <div class="w-full p-4 flex justify-end">
                         <button @click="goToWhatsAppChat" id="send-whatsapp-message" title="Enviar mensagem"
                             class="px-5 py-2 rounded-full flex items-center justify-between gap-1 bg-[#25D366] hover:scale-105 hover:shadow-lg hover:shadow-[#075E54]/30 transition-all duration-300">
@@ -35,24 +23,19 @@ import 'animate.css'
                             <img src="@/assets/icon/send.svg" alt="Enviar">
                         </button>
                     </div>
-
-
                 </div>
             </div>
 
-
-            <!-- BUTTON TO OPEN SEND MESSAGE CARD -->
             <button v-else @click="openWhatsAppCard" id="open-whatsapp-card"
                 class="w-16 h-16 rounded-full grid place-content-center hover:scale-105 transition-all duration-300 bg-[#25D366] shadow-xl shadow-[#075E54]/20"
                 title="WhatsApp">
                 <img src="@/assets/icon/footer/whatsapp.svg" alt="WhatsApp" class="w-8 h-8">
             </button>
         </transition>
-
-
     </div>
 </template>
-<script lang="ts">
+
+<script>
 export default {
     data() {
         return {
@@ -65,14 +48,18 @@ export default {
     },
     methods: {
         openWhatsAppCard() {
-            this.form.message = "Conversar agora!"
-            this.isOpen = true
+            this.isOpen = true;
+        },
+        closeWhatsAppCard() {
+            this.isOpen = false;
         },
         goToWhatsAppChat() {
             this.isOpen = false;
-            window.open(`https://wa.me/5551980456224?text=Fala+Brun%C3%A3o%21%21%21%21+Vim+pelo+site.`, '_blank')
+            let encodedMessage = encodeURIComponent(this.form.message);
+            let whatsappUrl = `https://wa.me/${this.form.number}?text=${encodedMessage}`;
+            window.open(whatsappUrl, '_blank');
+            this.form.message = "Conversar agora!";
         }
     }
 };
 </script>
-

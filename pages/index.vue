@@ -1,6 +1,6 @@
 <template>
   <div class="flex pt-[40px] text-[16px] flex-col mb:items-center">
-    <h1 class="mb:text-7xl text-center text-3xl text-green-500">Bem vindo!</h1>
+    <h1 class="mb:text-7xl text-center text-5xl">Bem vindo!</h1>
     <div class="md:flex md:flex-col mx-auto items-center">
       <p class="flex justify-center">Hora atual: {{ formattedTime }}</p>
       <p class="flex justify-center">
