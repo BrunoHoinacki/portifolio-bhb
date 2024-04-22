@@ -1,12 +1,18 @@
 <template>
-  <div class="flex pt-[40px] text-[16px] flex-col mb:items-center animate__animated animate__zoomInDown">
-    <h1 class="mb:text-7xl text-center text-5xl pb-2">Bem vindo!</h1>
-    <div class="flex flex-col mx-auto items-center mb-[100px]">
+  <div class="flex pt-[40px] flex-col items-center animate__animated animate__zoomInDown">
+    <div>
+      <h1 class="mb:text-7xl text-5xl pb-2">Bem vindo!</h1>
+    </div>
+    <div class="flex flex-col text-xl">
       <p class="flex justify-center">Hora atual: {{ formattedTime }}</p>
       <p class="flex justify-center">
         Data de hoje: {{ formattedDate }}
       </p>
-      <img :src="dynamicLogo" alt="Logo Dinâmico">
+    </div>
+    <div>
+      <a href="https://linkedin.com/in/brunohoinackib" target="_blank">
+        <img :src="dynamicLogo" alt="Logo Dinâmico">
+      </a>
     </div>
   </div>
 </template>

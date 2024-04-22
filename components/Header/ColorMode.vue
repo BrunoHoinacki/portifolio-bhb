@@ -21,6 +21,12 @@ function toggleColorMode() {
 }
 </script>
 <style>
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body {
     transition: background-color 0.3s, color 0.3s;
     color: #255F5A;
