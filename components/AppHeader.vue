@@ -1,9 +1,9 @@
 <template>
-    <header class="fixed top-0 left-0 w-full bg-green-500 text-white animate__animated animate__slideInDown">
+    <header class="fixed top-0 left-0 w-full bg-teal-500 text-white animate__animated animate__slideInDown">
         <div class="container mx-auto p-3 flex items-center justify-between">
             <div class="flex items-center">
-                <ColorMode class="mr-3" />
-                <AppAudio class="mr-3 mt-[2px]" />
+                <HeaderColorMode class="mr-3" />
+                <HeaderAppAudio class="mr-3 mt-[2px]" />
             </div>
             <div class="flex items-center">
                 <div class="md:hidden mr-3">

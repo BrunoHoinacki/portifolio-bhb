@@ -1,16 +1,19 @@
 <template>
   <div class="flex pt-[40px] text-[16px] flex-col mb:items-center animate__animated animate__zoomInDown">
-    <h1 class="mb:text-7xl text-center text-5xl">Bem vindo!</h1>
-    <div class="md:flex md:flex-col mx-auto items-center">
+    <h1 class="mb:text-7xl text-center text-5xl pb-2">Bem vindo!</h1>
+    <div class="flex flex-col mx-auto items-center mb-[100px]">
       <p class="flex justify-center">Hora atual: {{ formattedTime }}</p>
       <p class="flex justify-center">
         Data de hoje: {{ formattedDate }}
       </p>
+      <img :src="dynamicLogo" alt="Logo Dinâmico">
     </div>
   </div>
 </template>
 
 <script>
+import logo1 from '~/assets/logos/1.png';
+import logo2 from '~/assets/logos/2.png';
 export default {
   methods: {
     formatDate(date) {
@@ -37,6 +40,9 @@ export default {
     },
     formattedTime() {
       return this.formatTime(new Date());
+    },
+    dynamicLogo() {
+      return this.$colorMode.preference === 'dark' ? logo1 : logo2;
     }
   }
 }
