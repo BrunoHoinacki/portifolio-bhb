@@ -1,9 +1,7 @@
 <template>
-  <div>
-    <AppHeader />
-    <main class="pt-[80px]">
-      <slot />
-    </main>
-    <AppFooter />
-  </div>
+  <NavigationHorizontal />
+  <UContainer>
+    <slot />
+  </UContainer>
+  <AppFooter />
 </template>

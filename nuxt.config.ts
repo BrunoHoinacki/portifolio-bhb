@@ -20,10 +20,13 @@ export default defineNuxtConfig({
       }
     }
   },
-  modules: ['@nuxtjs/color-mode', '@nuxtjs/tailwindcss'],
+  modules: ['@nuxtjs/color-mode', "@nuxt/ui"],
   tailwindcss: {
     cssPath: '~/assets/css/tailwind.css',
   },
   devtools: { enabled: true },
   css: ['animate.css/animate.min.css'],
+  colorMode: {
+    preference: 'light'
+  },
 })
