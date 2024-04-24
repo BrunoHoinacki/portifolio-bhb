@@ -1,6 +1,6 @@
 <template>
     <div>
-        <FooterWhatsAppCTA class="animate__animated animate__slideInRight pb-3" />
+        <WhatsAppCTA class="animate__animated animate__slideInRight pb-3" />
         <footer
             class="fixed bottom-0 left-0 w-full bg-teal-500 text-white py-4 text-center animate__animated animate__slideInUp">
             <div class="justify-center sm:text-lg flex flex-row">

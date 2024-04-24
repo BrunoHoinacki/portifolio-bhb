@@ -23,6 +23,7 @@ export default defineNuxtConfig({
   modules: ['@nuxtjs/color-mode', "@nuxt/ui"],
   tailwindcss: {
     cssPath: '~/assets/css/tailwind.css',
+    configPath: 'tailwind.config.js',
   },
   devtools: { enabled: true },
   css: ['animate.css/animate.min.css'],
