@@ -1,7 +1,7 @@
 <template>
-  <NavigationHorizontal />
+  <AppHeader />
   <UContainer>
     <slot />
   </UContainer>
-  <AppFooter />
+  <!-- <AppFooter /> -->
 </template>

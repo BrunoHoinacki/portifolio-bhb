@@ -8,9 +8,6 @@
                     <a href="https://linkedin.com/in/brunohoinackib" target="_blank">Copyright © 1999-2024 Bruno Inacio
                         Hoinacki Bueno. CNPJ n.º 53.329.473/0001-01 </a>
                 </span>
-                <div>
-                    <ColorMode />
-                </div>
             </div>
         </footer>
     </div>

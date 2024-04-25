@@ -1,7 +1,7 @@
 <template>
   <div>
     <NuxtLayout>
-      <NuxtPage />
+      <NuxtPage class="font-Roboto" />
     </NuxtLayout>
   </div>
 </template>

@@ -6,8 +6,8 @@
         </audio>
         <p>Música:</p>
         <button @click="toggleAudio" class="focus:outline-none">
-            <img v-if="isPlaying" src="assets/icon/jam/pause.svg" alt="Pausar" class="h-6 w-6" />
-            <img v-else src="assets/icon/jam/play.svg" alt="Tocar" class="h-6 w-6" />
+            <!-- <img v-if="isPlaying" src="assets/icon/jam/pause.svg" alt="Pausar" class="h-6 w-6" />
+            <img v-else src="assets/icon/jam/play.svg" alt="Tocar" class="h-6 w-6" /> -->
         </button>
     </div>
 </template>
