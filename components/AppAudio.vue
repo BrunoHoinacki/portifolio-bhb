@@ -4,8 +4,8 @@
             <source src="~/assets/songs/theme.mp3" type="audio/mpeg">
             Seu navegador não suporta o elemento de áudio.
         </audio>
-        <UButton :ui="{ rounded: 'rounded-full' }" :icon="isPlaying ? 'i-heroicons-pause' : 'i-heroicons-play'" size="sm" color="teal" variant="solid"
-            label="Tocar" :trailing="false" @click="toggleAudio " />
+        <UButton :ui="{ rounded: 'rounded-full' }" :icon="isPlaying ? 'i-heroicons-pause-circle-16-solid' : 'i-heroicons-play-circle-16-solid'" size="sm" color="teal" variant="solid"
+            :label="isPlaying ? 'Pausar' : 'Tocar'" :trailing="false" @click="toggleAudio " />
     </div>
 </template>
 
