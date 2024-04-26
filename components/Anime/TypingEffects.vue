@@ -60,5 +60,8 @@ export default {
     padding: 20px;
     animation-duration: 2s;
     animation-fill-mode: both;
+    @media screen and (max-width: 768px) {
+        font-size: 1rem;
+    }
 }
 </style>
