@@ -1,6 +1,8 @@
 <template>
-  <div>
-    <AnimeTypingEffects />
-    <AnimeCircle />
+  <div class="flex justify-center static z-10">
+    <AnimeTypingEffects/>
+    <div class="absolute">
+      <AnimeCircle />
+    </div>
   </div>
 </template>
