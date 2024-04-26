@@ -1,5 +1,6 @@
 <template>
   <div>
-    <Circle />
+    <AnimeTypingEffects />
+    <AnimeCircle />
   </div>
 </template>
