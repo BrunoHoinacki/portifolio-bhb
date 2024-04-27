@@ -3,5 +3,4 @@
   <UContainer>
     <slot />
   </UContainer>
-  <!-- <AppFooter /> -->
 </template>

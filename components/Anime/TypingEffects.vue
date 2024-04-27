@@ -1,5 +1,5 @@
 <template>
-    <div class="mt-5">
+    <div class="text-container">
         <p :class="textClass">{{ displayedText }}</p>
     </div>
 </template>
@@ -16,12 +16,14 @@ export default {
             currentCharIndex: 0,
             isDeleting: false,
             textClass: 'text',
-            typingSpeed: 150 
+            typingSpeed: 150
         };
     },
     computed: {
         displayedText() {
-            return this.phrases[this.currentPhraseIndex].slice(0, this.currentCharIndex);
+            // Adiciona o cursor apenas se não estiver deletando e a animação de digitação estiver ativa
+            const text = this.phrases[this.currentPhraseIndex].slice(0, this.currentCharIndex);
+            return this.isDeleting ? text : text;
         }
     },
     methods: {
@@ -37,7 +39,7 @@ export default {
 
             if (!this.isDeleting && this.currentCharIndex === this.phrases[this.currentPhraseIndex].length) {
                 this.isDeleting = true;
-                setTimeout(this.type, 1500); 
+                setTimeout(this.type, 1500);
             } else if (this.isDeleting && this.currentCharIndex === 0) {
                 this.isDeleting = false;
                 this.currentPhraseIndex = (this.currentPhraseIndex + 1) % this.phrases.length;
@@ -58,10 +60,30 @@ export default {
     font-size: 2rem;
     text-align: center;
     padding: 20px;
-    animation-duration: 2s;
-    animation-fill-mode: both;
-    @media screen and (max-width: 768px) {
-        font-size: 1rem;
+    position: relative;
+    /* Para posicionar corretamente o pseudo-elemento */
+    white-space: pre;
+    /* Para que os espaços no final sejam respeitados */
+    /* ... outras propriedades ... */
+}
+
+.text::after {
+    content: '|';
+    animation: blink 1s step-end infinite;
+    margin-left: 5px;
+    /* Espaçamento entre o texto e o cursor */
+}
+
+@keyframes blink {
+
+    0%,
+    50% {
+        color: rgba(0, 0, 0, 1);
+    }
+
+    50.01%,
+    100% {
+        color: transparent;
     }
 }
 </style>
