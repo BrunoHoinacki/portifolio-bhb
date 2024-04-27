@@ -16,7 +16,7 @@
                     <h2 class="text-xl md:text-3xl font-semibold mb-6">Aumente o nível da sua marca</h2>
                     <form class="space-y-4" action="https://formsubmit.co/brunohoinackib@gmail.com" method="POST">
                         <input type="hidden" name="_captcha" value="false">
-                        <input type="hidden" name="_next" value="https://www.brunohoinacki.site/obrigado">
+                        <input type="hidden" name="_next" value="https://www.brunohoinacki.site/thanks">
                         <div>
                             <input type="text" name="text" id="text" placeholder="Nome e sobrenome" required
                                 class="w-full p-2 rounded-md border border-teal-500 focus:outline-none focus:border-green-500 bg-transparent hover:border-green-700">
