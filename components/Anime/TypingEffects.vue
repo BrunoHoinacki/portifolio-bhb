@@ -15,8 +15,8 @@ export default {
             currentPhraseIndex: 0,
             currentCharIndex: 0,
             isDeleting: false,
-            textClass: 'text', // Classe CSS para o texto
-            typingSpeed: 150 // Velocidade de digitação/deleção
+            textClass: 'text',
+            typingSpeed: 150 
         };
     },
     computed: {
@@ -37,11 +37,11 @@ export default {
 
             if (!this.isDeleting && this.currentCharIndex === this.phrases[this.currentPhraseIndex].length) {
                 this.isDeleting = true;
-                setTimeout(this.type, 1500); // Aguardar 1.5 segundos antes de começar a excluir
+                setTimeout(this.type, 1500); 
             } else if (this.isDeleting && this.currentCharIndex === 0) {
                 this.isDeleting = false;
                 this.currentPhraseIndex = (this.currentPhraseIndex + 1) % this.phrases.length;
-                setTimeout(this.type, 500); // Aguardar 0.5 segundos antes de começar a digitar a próxima frase
+                setTimeout(this.type, 500);
             } else {
                 setTimeout(this.type, this.typingSpeed);
             }

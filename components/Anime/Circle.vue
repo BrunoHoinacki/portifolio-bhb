@@ -14,21 +14,21 @@ import anime from 'animejs';
 export default {
   mounted() {
     anime({
-      targets: '.circle', // Classe do seu elemento HTML
+      targets: '.circle', 
       rotate: {
-        value: 360, // Graus de rotação completa
-        duration: 2000, // Duração da animação em milissegundos
-        easing: 'linear', // Tipo de easing (linear para rotação constante)
-        loop: true // Repetir a animação continuamente
+        value: 360, 
+        duration: 2000, 
+        easing: 'linear', 
+        loop: true 
       }
     });
     anime({
-      targets: '.circle', // Classe do seu elemento HTML
+      targets: '.circle', 
       scale: [
-        { value: 0.9, duration: 1000, easing: 'easeInOutQuad' }, // Reduz a escala para 90%
-        { value: 1, duration: 1000, easing: 'easeInOutQuad' } // Retorna à escala original
+        { value: 0.9, duration: 1000, easing: 'easeInOutQuad' },
+        { value: 1, duration: 1000, easing: 'easeInOutQuad' } 
       ],
-      loop: true // Repetir a animação continuamente
+      loop: true 
     });
 
   }
