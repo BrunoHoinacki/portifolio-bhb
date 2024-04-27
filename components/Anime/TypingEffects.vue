@@ -9,8 +9,8 @@ export default {
     data() {
         return {
             phrases: [
-                "Hello, I'm Bruno Hoinacki",
-                "Look for all pages for a great experience"
+                "Olá, Eu sou o Bruno Hoinacki",
+                "Olhe todas as páginas para ter uma ótima experiência",
             ],
             currentPhraseIndex: 0,
             currentCharIndex: 0,
