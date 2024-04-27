@@ -37,7 +37,7 @@ export default {
         window.addEventListener('resize', onWindowResize, false);
 
         // Adicionar cubo à cena
-        const geometry = new THREE.BoxGeometry();
+        const geometry = new THREE.BoxGeometry(2, 2, 2);
         const material = new THREE.MeshBasicMaterial({ color: '#6DFAFB' });
         cube = new THREE.Mesh(geometry, material);
         scene.add(cube);
@@ -45,8 +45,8 @@ export default {
         // Adicionar evento de movimento do mouse
         function onMouseMove(event) {
             // Normalizar coordenadas do mouse
-            mouseX = (event.clientX - windowHalfX) * 0.025;
-            mouseY = (event.clientY - windowHalfY) * 0.025;
+            mouseX = (event.clientX - windowHalfX) * 0.010;
+            mouseY = (event.clientY - windowHalfY) * 0.010;
         }
         document.addEventListener('mousemove', onMouseMove, false);
 
@@ -64,15 +64,14 @@ export default {
 
 <style scoped>
 #canvasContainer {
-    display: flex; /* Usa Flexbox para alinhamento */
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center; /* Centraliza verticalmente */
-    height: 100vh; /* Usa 100% da altura da tela */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 canvas {
-    /* Mantém o canvas no bloco para evitar margens extras e alinha de acordo com as propriedades do flex */
-    display: block; 
-    margin: auto; /* Garante que qualquer tamanho de canvas será centralizado */
+    display: block;
+    margin: auto;
 }
 </style>
