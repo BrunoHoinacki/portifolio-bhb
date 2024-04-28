@@ -61,10 +61,10 @@ export default {
     text-align: center;
     padding: 20px;
     position: relative;
-    /* Para posicionar corretamente o pseudo-elemento */
     white-space: pre;
-    /* Para que os espaços no final sejam respeitados */
-    /* ... outras propriedades ... */
+    @media screen and (max-width: 768px) {
+        font-size: 0.9rem;
+    }
 }
 
 .text::after {
