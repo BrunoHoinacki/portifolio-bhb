@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="typing-container mt-10">
+    <div class="typing-container mt-1">
       <AnimeTypingEffects />
     </div>
     <div>
