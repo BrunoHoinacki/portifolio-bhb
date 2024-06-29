@@ -23,14 +23,27 @@
 useSeoMeta({
   title: 'Elleva - Criação de Site e Plataformas Web',
   ogTitle: 'Elleva - Criação de Site e Plataformas Web',
-  description: 'Criação de Sites e Plataformas Web de alta qualidade e inovação.',
-  ogDescription: 'Criação de Sites e Plataformas Web de alta qualidade e inovação.',
+  description: 'Elleva oferece criação de sites e plataformas web inovadoras e de alta qualidade. Personalizamos soluções para atender às suas necessidades específicas.',
+  ogDescription: 'Elleva oferece criação de sites e plataformas web inovadoras e de alta qualidade. Personalizamos soluções para atender às suas necessidades específicas.',
   ogImage: '/og-image.png',
   twitterCard: 'summary_large_image',
   twitterTitle: 'Elleva - Criação de Site e Plataformas Web',
-  twitterDescription: 'Criação de Sites e Plataformas Web de alta qualidade e inovação.',
+  twitterDescription: 'Elleva oferece criação de sites e plataformas web inovadoras e de alta qualidade. Personalizamos soluções para atender às suas necessidades específicas.',
   twitterImage: '/og-image.png',
-  keywords: 'elleva, eleva website, eleva site, eleva platform, eleva platform website, eleva platform site',
+  keywords: 'elleva, criação de sites, plataformas web, desenvolvimento web, sites inovadores, soluções web',
   robots: 'index, follow',
+})
+
+useHead({
+  meta: [
+    { name: 'author', content: 'Elleva' },
+    { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+    { name: 'theme-color', content: '#000' },
+    { name: 'language', content: 'pt-BR' },
+  ],
+  link: [
+    { rel: 'icon', type: 'image/png', href: '/favicon.png' },
+    { rel: 'canonical', href: 'https://www.elleva.com.br' },
+  ],
 })
 </script>
