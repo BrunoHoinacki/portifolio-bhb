@@ -122,7 +122,7 @@
   display: flex;
   justify-content: space-between;
   position: absolute;
-  top: 70%;
+  top: 100%;
   left: 50%;
   width: 100%;
   transform: translate(-50%, -50%);
@@ -142,7 +142,7 @@
 
 @media screen and (min-width: 425px) {
   .all {
-    top: 70%;
+    top: 100%;
   }
 }
 
