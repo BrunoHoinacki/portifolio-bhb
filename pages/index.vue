@@ -102,26 +102,36 @@
         </div>
       </div>
     </div>
-    <div class="w-full mb-10 text-brand-blue text-4xl text-left tracking-tighter"
-      style="font-family: 'Space Grotesk', sans-serif;">
-      <p>Essas marcas acreditam no nosso DNA.</p>
-    </div>
-    <div class="text-white text-lg underline decoration-2 underline-offset-8 mb-10 w-full font-sans">
-      <NuxtLink to="/projects">Conheça os cases<i class="fa-solid fa-arrow-right ml-2 text-brand-blue"></i></NuxtLink>
-    </div>
-    <div class="flex w-full h-32 lg:h-28 mt-8 mb-28 border-brand-blue border-l-2 overflow-hidden items-center">
-      <div class="image-container">
-        <img src="~/assets/logos/logo-text-white.png" alt="">
-        <img src="~/assets/logos/logo-text-white.png" alt="">
-        <img src="~/assets/logos/logo-text-white.png" alt="">
-        <img src="~/assets/logos/logo-text-white.png" alt="">
-        <img src="~/assets/logos/logo-text-white.png" alt="">
-        <img src="~/assets/logos/logo-text-white.png" alt="">
+    <div class="flex flex-wrap justify-between">
+      <div class="w-full xl:w-1/4 xl:flex xl:flex-col xl:justify-center">
+        <div
+          class="w-full mb-10 text-brand-blue text-4xl text-left tracking-tighter font-space-grotesk xl:whitespace-normal xl:break-words">
+          <p>Essas marcas acreditam no nosso DNA.</p>
+        </div>
+        <div class="w-full text-white text-lg mb-10 font-sans xl:whitespace-normal">
+          <NuxtLink to="/projects" class="flex items-center">
+            <p class="underline decoration-2 underline-offset-8">Conheça os cases</p>
+            <i class="fa-solid fa-arrow-right ml-2 text-brand-blue"></i>
+          </NuxtLink>
+        </div>
+      </div>
+      <div class="w-full xl:w-3/4 xl:flex xl:flex-col xl:justify-center">
+        <div class="w-full h-32 xl:h-28 mt-8 mb-28 border-brand-blue border-l-2 overflow-hidden flex items-center">
+          <div class="image-container flex">
+            <img src="~/assets/logos/logo-text-white.png" alt="">
+            <img src="~/assets/logos/logo-text-white.png" alt="">
+            <img src="~/assets/logos/logo-text-white.png" alt="">
+            <img src="~/assets/logos/logo-text-white.png" alt="">
+            <img src="~/assets/logos/logo-text-white.png" alt="">
+            <img src="~/assets/logos/logo-text-white.png" alt="">
+          </div>
+        </div>
       </div>
     </div>
   </div>
   <div class="h-full bg-white">
-    <div class="text-5xl xl:text-[7rem] w-full pb-4 font-extralight text-black" style="font-family: 'Space Grotesk', sans-serif;">
+    <div class="text-5xl xl:text-[7rem] w-full pb-4 font-extralight text-black"
+      style="font-family: 'Space Grotesk', sans-serif;">
       <p>Agencia especializada em Laravel e Vue.JS</p>
     </div>
   </div>
@@ -159,7 +169,7 @@
 @media screen and (min-width: 375px) {
   .all {
     top: 97%;
-  }  
+  }
 }
 
 @media screen and (min-width: 425px) {
