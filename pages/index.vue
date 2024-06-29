@@ -123,7 +123,7 @@
             </div>
           </div>
           <div class="w-full xl:w-3/4 xl:flex xl:flex-col xl:justify-center">
-            <div class="w-full h-32 xl:h-28 mt-8 mb-28 border-brand-blue border-l-2 overflow-hidden flex items-center">
+            <div class="w-full h-32 xl:h-28 mt-8 lx:mb-28 border-brand-blue border-l-2 overflow-hidden flex items-center">
               <div class="image-container flex">
                 <img src="~/assets/logos/logo-text-white.png" alt="">
                 <img src="~/assets/logos/logo-text-white.png" alt="">

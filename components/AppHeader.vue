@@ -38,7 +38,7 @@
                     <NuxtLink to="" class="hidden xl:block xl:mx-4 text-base hover:text-brand-blue">EN</NuxtLink>
                 </div>
                 <div class="xl:hidden block">
-                    <button class="text-brand-blue hover:text-blue-700">
+                    <button @click="toogleMenu" class="text-brand-blue hover:text-blue-700">
                         <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24"
                             xmlns="http://www.w3.org/2000/svg">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -53,5 +53,15 @@
 
 <script>
 export default {
-}
+    methods: {
+        toogleMenu() {
+            const menu = document.getElementById('menu');
+            if (menu.classList.contains('hidden')) {
+                menu.classList.remove('hidden');
+            } else {
+                menu.classList.add('hidden');
+            }
+        }
+    }
+};
 </script>

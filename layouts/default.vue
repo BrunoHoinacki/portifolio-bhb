@@ -5,6 +5,9 @@
         <AppHeader />
       </div>
     </div>
+    <div class="hidden" id="menu">
+      <MenuLateral />
+    </div>
     <div class="">
       <main>
         <slot />
@@ -12,3 +15,15 @@
     </div>
   </div>
 </template>
+
+<script>
+import MenuLateral from '~/components/MenuLateral.vue';
+import AppHeader from '~/components/AppHeader.vue';
+
+export default {
+  components: {
+    MenuLateral,
+    AppHeader,
+  },
+};
+</script>
