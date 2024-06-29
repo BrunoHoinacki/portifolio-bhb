@@ -1,7 +1,6 @@
 <template>
-  <div class="flex flex-col items-center justify-start h-screen bg-black text-white px-16 xl:pl-10">
-    <div class="text-5xl xl:text-[7rem] w-full pb-4 font-extralight font-sans"
-      style="font-family: 'Space Grotesk', sans-serif;">
+  <div class="flex flex-col items-center justify-start h-full bg-black text-white px-10 md:px-16 pt-6 xl:pt-0 xl:pl-10">
+    <div class="text-5xl xl:text-[7rem] w-full pb-4 font-extralight" style="font-family: 'Space Grotesk', sans-serif;">
       <p>Soluções digitais de</p>
       <p class="underline decoration-blue-500 decoration-4 underline-offset-8">alta performance.</p>
     </div>
@@ -44,62 +43,71 @@
         </div>
       </div>
       <div class="flex mt-8 basis-1/2 xl:ml-52">
-        <p class="px-4 text-xl text-justify">
+        <p class="xl:px-4 text-base leading-6 lg:text-xl text-justify">
           A Elleva é uma software house especializada no desenvolvimento de projetos digitais com foco em usabilidade e
           conversão. Reunimos profissionais criativos, qualificados e com anos de experiência para garantirmos
           excelência em cada etapa do projeto.
         </p>
       </div>
     </div>
-    <div class="all xl:mt-2">
-      <div class="container">
-        <div class="circle"></div>
-        <div class="circle"></div>
+    <div class="mt-20 h-28 md:h-48">
+      <div class="all xl:mt-2">
+        <div class="container">
+          <div class="circle"></div>
+          <div class="circle"></div>
+        </div>
+        <div class="container">
+          <div class="circle"></div>
+          <div class="circle"></div>
+        </div>
+        <div class="container">
+          <div class="circle"></div>
+          <div class="circle"></div>
+        </div>
+        <div class="container">
+          <div class="circle"></div>
+          <div class="circle"></div>
+        </div>
+        <div class="container">
+          <div class="circle"></div>
+          <div class="circle"></div>
+        </div>
+        <div class="container">
+          <div class="circle"></div>
+          <div class="circle"></div>
+        </div>
+        <div class="container">
+          <div class="circle"></div>
+          <div class="circle"></div>
+        </div>
+        <div class="container">
+          <div class="circle"></div>
+          <div class="circle"></div>
+        </div>
+        <div class="container">
+          <div class="circle"></div>
+          <div class="circle"></div>
+        </div>
+        <div class="container">
+          <div class="circle"></div>
+          <div class="circle"></div>
+        </div>
+        <div class="container">
+          <div class="circle"></div>
+          <div class="circle"></div>
+        </div>
+        <div class="container">
+          <div class="circle"></div>
+          <div class="circle"></div>
+        </div>
       </div>
-      <div class="container">
-        <div class="circle"></div>
-        <div class="circle"></div>
-      </div>
-      <div class="container">
-        <div class="circle"></div>
-        <div class="circle"></div>
-      </div>
-      <div class="container">
-        <div class="circle"></div>
-        <div class="circle"></div>
-      </div>
-      <div class="container">
-        <div class="circle"></div>
-        <div class="circle"></div>
-      </div>
-      <div class="container">
-        <div class="circle"></div>
-        <div class="circle"></div>
-      </div>
-      <div class="container">
-        <div class="circle"></div>
-        <div class="circle"></div>
-      </div>
-      <div class="container">
-        <div class="circle"></div>
-        <div class="circle"></div>
-      </div>
-      <div class="container">
-        <div class="circle"></div>
-        <div class="circle"></div>
-      </div>
-      <div class="container">
-        <div class="circle"></div>
-        <div class="circle"></div>
-      </div>
-      <div class="container">
-        <div class="circle"></div>
-        <div class="circle"></div>
-      </div>
-      <div class="container">
-        <div class="circle"></div>
-        <div class="circle"></div>
-      </div>
+    </div>
+    <div class="mb-10 text-blue-500 text-4xl text-left tracking-tighter"
+      style="font-family: 'Space Grotesk', sans-serif;">
+      <p>Essas marcas acreditam no nosso DNA.</p>
+    </div>
+    <div class="text-white underline decoration-2 underline-offset-8 mb-10 w-full font-sans">
+      <NuxtLink to="/projects">Conheça os cases<i class="fa-solid fa-arrow-right ml-2 text-blue-500"></i></NuxtLink>
     </div>
   </div>
 </template>
@@ -114,31 +122,45 @@
   display: flex;
   justify-content: space-between;
   position: absolute;
-  top: 100%;
+  top: 70%;
   left: 50%;
   width: 100%;
   transform: translate(-50%, -50%);
 }
 
-@media (min-width: 1024px) {
-
-  /* Breakpoint lg */
+@media screen and (min-width: 425px) {
   .all {
-    top: 70%;
+    top: 90%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .all {
+    top: 68%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .all {
+    top: 55%;
   }
 }
 
 @media (min-width: 1280px) {
-
-.all {
-  top: 100%;
+  .all {
+    top: 90%;
+  }
 }
+
+@media (min-width: 1440px) {
+  .all {
+    top: 85%;
+  }
 }
 
 .container {
   height: 120px;
   flex-grow: 1;
-  position: relative;
   display: flex;
   justify-content: center;
 }
@@ -153,14 +175,14 @@
 
 .container .circle:nth-child(1) {
   top: 0;
-  animation: anim_a 2s infinite ease-in-out;
+  animation: anim_a 3s infinite ease-in-out;
   background-color: #3B82F6;
 }
 
 .container .circle:nth-child(2) {
   top: calc(100% - 5px);
   transform: scale(1.0);
-  animation: anim_b 2s infinite ease-in-out;
+  animation: anim_b 3s infinite ease-in-out;
   background-color: #e1e1e1;
 }
 

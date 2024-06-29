@@ -2,10 +2,10 @@
     <header class="w-full">
         <div class="flex justify-center">
             <div
-                class="flex flex-row flex-nowrap justify-center items-center text-xs sm:text-sm md:text-base lg:text-xl font-semibold animate__animated animate__fadeIn w-full max-w-screen-xl mx-auto xl:px-6 px-10">
+                class="flex flex-row flex-nowrap justify-center items-center text-xs sm:text-sm md:text-base lg:text-xl font-semibold animate__animated animate__fadeIn w-full max-w-screen-xl mx-auto xl:px-6 md:px-14 px-6">
                 <div class="flex items-center">
                     <NuxtLink to="/" class="">
-                        <img class="h-44" src="~/assets/logos/logo-text-white.png" alt="Logo Elleva">
+                        <img class="h-20" src="~/assets/logos/logo-text-white.png" alt="Logo Elleva">
                     </NuxtLink>
                 </div>
                 <div class="flex flex-row items-center ml-auto">
@@ -28,7 +28,7 @@
                     <NuxtLink to="" class="hidden xl:block xl:mx-4 text-base hover:text-blue-500">ES</NuxtLink>
                     <NuxtLink to="" class="hidden xl:block xl:mx-4 text-base hover:text-blue-500">EN</NuxtLink>
                 </div>
-                <div class="xl:hidden block mr-8">
+                <div class="xl:hidden block">
                     <button class="text-blue-500 hover:text-blue-700">
                         <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24"
                             xmlns="http://www.w3.org/2000/svg">
