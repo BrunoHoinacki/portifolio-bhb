@@ -109,7 +109,7 @@
     <div class="text-white text-lg underline decoration-2 underline-offset-8 mb-10 w-full font-sans">
       <NuxtLink to="/projects">Conheça os cases<i class="fa-solid fa-arrow-right ml-2 text-brand-blue"></i></NuxtLink>
     </div>
-    <div class="w-full h-32 my-8 border-brand-blue border-l-2 overflow-hidden">
+    <div class="flex w-full h-32 lg:h-28 mt-8 mb-28 border-brand-blue border-l-2 overflow-hidden items-center">
       <div class="image-container">
         <img src="~/assets/logos/logo-text-white.png" alt="">
         <img src="~/assets/logos/logo-text-white.png" alt="">
@@ -118,6 +118,11 @@
         <img src="~/assets/logos/logo-text-white.png" alt="">
         <img src="~/assets/logos/logo-text-white.png" alt="">
       </div>
+    </div>
+  </div>
+  <div class="h-full bg-white">
+    <div class="text-5xl xl:text-[7rem] w-full pb-4 font-extralight text-black" style="font-family: 'Space Grotesk', sans-serif;">
+      <p>Agencia especializada em Laravel e Vue.JS</p>
     </div>
   </div>
 </template>
