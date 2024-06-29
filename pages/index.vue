@@ -136,7 +136,7 @@
 
 @media screen and (min-width: 360px) {
   .all {
-    top: 95%;
+    top: 97%;
   }
 }
 
