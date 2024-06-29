@@ -102,12 +102,19 @@
         </div>
       </div>
     </div>
-    <div class="mb-10 text-brand-blue text-4xl text-left tracking-tighter"
+    <div class="w-full mb-10 text-brand-blue text-4xl text-left tracking-tighter"
       style="font-family: 'Space Grotesk', sans-serif;">
       <p>Essas marcas acreditam no nosso DNA.</p>
     </div>
-    <div class="text-white underline decoration-2 underline-offset-8 mb-10 w-full font-sans">
+    <div class="text-white text-lg underline decoration-2 underline-offset-8 mb-10 w-full font-sans">
       <NuxtLink to="/projects">Conheça os cases<i class="fa-solid fa-arrow-right ml-2 text-brand-blue"></i></NuxtLink>
+    </div>
+    <div class="w-full h-32 my-8 border-brand-blue border-l-2">
+      <div class="flex overflow-x-scroll overflow-y-none h-full">
+        <img src="~/assets/logos/logo-text-white.png" alt="">
+        <img src="~/assets/logos/logo-text-white.png" alt="">
+        <img src="~/assets/logos/logo-text-white.png" alt="">
+      </div>
     </div>
   </div>
 </template>
