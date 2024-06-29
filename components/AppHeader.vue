@@ -11,21 +11,20 @@
                 <div class="flex flex-row items-center ml-auto">
                     <NuxtLink
                         class="hidden xl:block xl:mx-3 my-2 hover:decoration-brand-blue hover:underline hover:underline-offset-4 hover:decoration-2 text-base text-nowrap transition duration-700 ease-in-out"
-                        to="/about">O
-                        que
-                        fazemos
+                        to="/about">
+                        O que fazemos
                     </NuxtLink>
                     <p class="hidden xl:block xl:mx-3 my-2 text-brand-blue">•</p>
                     <NuxtLink
                         class="hidden xl:block xl:mx-3 my-2 hover:decoration-brand-blue hover:underline hover:underline-offset-4 hover:decoration-2 text-base text-nowrap transition duration-700 ease-in-out"
-                        to="/projects">Cases
+                        to="/projects">
+                        Cases
                     </NuxtLink>
                     <p class="hidden xl:block xl:mx-3 my-2 text-brand-blue font-semibold">•</p>
                     <NuxtLink
                         class="hidden xl:block xl:mx-3 my-2 hover:decoration-brand-blue hover:underline hover:underline-offset-4 hover:decoration-2 text-base text-nowrap transition duration-700 ease-in-out"
                         to="/agencies">
-                        Para
-                        agências
+                        Para agências
                     </NuxtLink>
                     <p class="hidden xl:block xl:mx-3 my-2 text-brand-blue font-semibold"></p>
                     <NuxtLink
@@ -38,7 +37,7 @@
                     <NuxtLink to="" class="hidden xl:block xl:mx-4 text-base hover:text-brand-blue">EN</NuxtLink>
                 </div>
                 <div class="xl:hidden block">
-                    <button @click="toogleMenu" class="text-brand-blue hover:text-blue-700">
+                    <button @click="$emit('toggle-menu')" class="text-brand-blue hover:text-blue-700">
                         <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24"
                             xmlns="http://www.w3.org/2000/svg">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -53,15 +52,6 @@
 
 <script>
 export default {
-    methods: {
-        toogleMenu() {
-            const menu = document.getElementById('menu');
-            if (menu.classList.contains('hidden')) {
-                menu.classList.remove('hidden');
-            } else {
-                menu.classList.add('hidden');
-            }
-        }
-    }
+    name: 'AppHeader',
 };
 </script>
