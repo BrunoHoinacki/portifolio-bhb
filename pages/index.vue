@@ -151,6 +151,12 @@
   }
 }
 
+@media screen and (min-width: 375px) {
+  .all {
+    top: 97%;
+  }  
+}
+
 @media screen and (min-width: 425px) {
   .all {
     top: 100%;
