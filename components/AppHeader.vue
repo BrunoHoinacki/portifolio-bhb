@@ -9,21 +9,30 @@
                     </NuxtLink>
                 </div>
                 <div class="flex flex-row items-center ml-auto">
-                    <NuxtLink class="hidden xl:block xl:mx-3 my-2 hover:text-brand-blue text-base text-nowrap"
+                    <NuxtLink
+                        class="hidden xl:block xl:mx-3 my-2 hover:decoration-brand-blue hover:underline hover:underline-offset-4 hover:decoration-2 text-base text-nowrap transition duration-700 ease-in-out"
                         to="/about">O
                         que
-                        fazemos</NuxtLink>
+                        fazemos
+                    </NuxtLink>
                     <p class="hidden xl:block xl:mx-3 my-2 text-brand-blue">•</p>
-                    <NuxtLink class="hidden xl:block xl:mx-3 my-2 hover:text-brand-blue text-base text-nowrap"
-                        to="/projects">Cases</NuxtLink>
+                    <NuxtLink
+                        class="hidden xl:block xl:mx-3 my-2 hover:decoration-brand-blue hover:underline hover:underline-offset-4 hover:decoration-2 text-base text-nowrap transition duration-700 ease-in-out"
+                        to="/projects">Cases
+                    </NuxtLink>
                     <p class="hidden xl:block xl:mx-3 my-2 text-brand-blue font-semibold">•</p>
-                    <NuxtLink class="hidden xl:block xl:mx-3 my-2 hover:text-brand-blue text-base text-nowrap" to="/shop">
+                    <NuxtLink
+                        class="hidden xl:block xl:mx-3 my-2 hover:decoration-brand-blue hover:underline hover:underline-offset-4 hover:decoration-2 text-base text-nowrap transition duration-700 ease-in-out"
+                        to="/shop">
                         Para
-                        agências</NuxtLink>
+                        agências
+                    </NuxtLink>
                     <p class="hidden xl:block xl:mx-3 my-2 text-brand-blue font-semibold"></p>
                     <NuxtLink
-                        class="hidden xl:block xl:ml-10 xl:mr-8 my-2 px-5 py-4 hover:text-blue-600 hover:bg-white text-base rounded-full bg-brand-blue text-white text-nowrap"
-                        to="/contact">Fale conosco</NuxtLink>
+                        class="hidden xl:block xl:ml-10 xl:mr-8 my-2 px-5 py-4 text-base rounded-full bg-brand-blue text-white text-nowrap transition duration-700 ease-in-out hover:text-brand-blue hover:bg-white"
+                        to="/contact">
+                        Fale conosco
+                    </NuxtLink>
                     <NuxtLink to="" class="hidden xl:block xl:mx-4 text-base hover:text-brand-blue">PT</NuxtLink>
                     <NuxtLink to="" class="hidden xl:block xl:mx-4 text-base hover:text-brand-blue">ES</NuxtLink>
                     <NuxtLink to="" class="hidden xl:block xl:mx-4 text-base hover:text-brand-blue">EN</NuxtLink>
