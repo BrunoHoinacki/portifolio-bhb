@@ -37,8 +37,8 @@
             <span class="text-brand-blue text-xl mx-1">&lt; / &gt;</span>
           </div>
         </div>
-        <div class="xl:hidden flex mt-8 w-full">
-          <div class="flex items-center flex-nowrap">
+        <div class="xl:hidden flex mt-8 w-full justify-center">
+          <div class="flex items-center justify-center flex-nowrap">
             <span class="text-brand-blue text-2xl mx-1 whitespace-nowrap">&lt; / &gt;</span>
             <span class="text-white text-2xl mx-1 whitespace-nowrap">nosso dna é digital</span>
             <span class="text-brand-blue text-2xl mx-1 whitespace-nowrap">&lt; / &gt;</span>
