@@ -21,16 +21,16 @@
 
 <script setup lang="ts">
 useSeoMeta({
-  title: 'Eleva - Criação de Site e Plataformas Web',
-  ogTitle: 'Eleva - Criação de Site e Plataformas Web',
+  title: 'Elleva - Criação de Site e Plataformas Web',
+  ogTitle: 'Elleva - Criação de Site e Plataformas Web',
   description: 'Criação de Sites e Plataformas Web de alta qualidade e inovação.',
   ogDescription: 'Criação de Sites e Plataformas Web de alta qualidade e inovação.',
   ogImage: '',
   twitterCard: 'summary_large_image',
-  twitterTitle: 'Eleva - Criação de Site e Plataformas Web',
+  twitterTitle: 'Elleva - Criação de Site e Plataformas Web',
   twitterDescription: 'Criação de Sites e Plataformas Web de alta qualidade e inovação.',
   twitterImage: '',
-  keywords: 'eleva, eleva website, eleva site, eleva platform, eleva platform website, eleva platform site',
+  keywords: 'elleva, eleva website, eleva site, eleva platform, eleva platform website, eleva platform site',
   robots: 'index, follow',
 })
 </script>
