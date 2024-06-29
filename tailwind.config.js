@@ -11,6 +11,13 @@ export default {
     extend: {
       textColor: {
         DEFAULT: '#ffffff', // Define a cor branca como padrão
+        'brand-blue': '#0651F5',
+      },
+      backgroundColor: {
+        'brand-blue': '#0651F5',
+      },
+      borderColor: {
+        'brand-blue': '#0651F5', // Adiciona a cor personalizada para bordas
       },
     },
   },
