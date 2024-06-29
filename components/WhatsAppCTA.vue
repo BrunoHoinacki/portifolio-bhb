@@ -14,7 +14,7 @@
                     </div>
                     <div class="p-4 py-6">
                         <input type="text" name="message" id="message" v-model="form.message" maxlength="140"
-                            title="Mensagem" class="w-full px-4 py-4 rounded-full text-sm focus:outline-brand-blue border-2 border-brand-blue text-white">
+                            title="Mensagem" class="w-full px-4 py-4 rounded-full text-sm focus:outline-brand-blue border-2 border-brand-blue text-brand-blue bg-white">
                     </div>
                     <div class="w-full p-4 flex justify-end">
                         <button @click="goToWhatsAppChat" id="send-whatsapp-message" title="Enviar mensagem"
