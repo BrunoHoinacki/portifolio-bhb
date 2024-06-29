@@ -1,6 +1,6 @@
 <template>
-  <div class="bg-black pt-28 px-14 pb-28">
-    <div class="flex flex-col items-center justify-start h-full text-white px-10 md:px-16 pt-6 xl:pt-0 xl:pl-10">
+  <div class="bg-black pt-28 px-6 xl:px-14 pb-28">
+    <div class="flex flex-col items-center justify-start h-full text-white md:px-16 pt-6 xl:pt-0 xl:pl-10">
       <div class="text-5xl xl:text-[7rem] w-full pb-4 font-extralight"
         style="font-family: 'Space Grotesk', sans-serif;">
         <p>Soluções digitais de</p>
@@ -103,10 +103,6 @@
             <div class="circle"></div>
             <div class="circle"></div>
           </div>
-          <div class="container hidden xl:block">
-            <div class="circle"></div>
-            <div class="circle"></div>
-          </div>
         </div>
       </div>
       <div class="flex flex-wrap justify-between">
@@ -139,7 +135,7 @@
       </div>
     </div>
   </div>
-  <div class="bg-white px-20">
+  <div class="bg-white px-6 xl:px-20">
     <div class="h-full">
       <div class="text-3xl xl:text-6xl w-full pb-4 font-extralight text-black xl:pt-28 pt-16"
         style="font-family: 'Space Grotesk', sans-serif;">
@@ -218,13 +214,6 @@
   /* Remover o translate */
   gap: 16px;
 }
-
-@media screen and (max-width: 768px) {
-  .all{
-    gap: 0px;
-  }
-}
-
 
 /* Ajuste para o container para manter os elementos na horizontal */
 .container {
