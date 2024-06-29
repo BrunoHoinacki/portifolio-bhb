@@ -1,11 +1,12 @@
 <template>
-  <div class="flex flex-col items-center justify-start h-screen bg-black text-white  pl-10">
-    <div class="text-[7rem] w-full pb-4 font-extralight font-sans" style="font-family: 'Space Grotesk', sans-serif;">
+  <div class="flex flex-col items-center justify-start h-screen bg-black text-white px-16 xl:pl-10">
+    <div class="text-5xl xl:text-[7rem] w-full pb-4 font-extralight font-sans"
+      style="font-family: 'Space Grotesk', sans-serif;">
       <p>Soluções digitais de</p>
       <p class="underline decoration-blue-500 decoration-4 underline-offset-8">alta performance.</p>
     </div>
-    <div class="flex flex-row items-center">
-      <div class="flex flex-col items-center mt-8 basis-1/4">
+    <div class="flex xl:flex-row flex-col items-center">
+      <div class="xl:flex flex-col items-center mt-8 basis-1/4 hidden">
         <div class="flex flex-col items-center">
           <div class="flex flex-row space-x-16 mb-6">
             <div class="w-1 h-1 bg-blue-500 rounded-full"></div>
@@ -35,7 +36,14 @@
           <span class="text-blue-500 text-xl mx-1">&lt; / &gt;</span>
         </div>
       </div>
-      <div class="flex mt-8 basis-1/2 ml-52">
+      <div class="xl:hidden flex mt-8 w-full">
+        <div class="flex items-center flex-nowrap">
+          <span class="text-blue-500 text-2xl mx-1 whitespace-nowrap">&lt; / &gt;</span>
+          <span class="text-white text-2xl mx-1 whitespace-nowrap">nosso dna é digital</span>
+          <span class="text-blue-500 text-2xl mx-1 whitespace-nowrap">&lt; / &gt;</span>
+        </div>
+      </div>
+      <div class="flex mt-8 basis-1/2 xl:ml-52">
         <p class="px-4 text-xl text-justify">
           A Elleva é uma software house especializada no desenvolvimento de projetos digitais com foco em usabilidade e
           conversão. Reunimos profissionais criativos, qualificados e com anos de experiência para garantirmos
@@ -43,7 +51,7 @@
         </p>
       </div>
     </div>
-    <div class="all mt-2">
+    <div class="all xl:mt-2">
       <div class="container">
         <div class="circle"></div>
         <div class="circle"></div>
@@ -112,6 +120,21 @@
   transform: translate(-50%, -50%);
 }
 
+@media (min-width: 1024px) {
+
+  /* Breakpoint lg */
+  .all {
+    top: 70%;
+  }
+}
+
+@media (min-width: 1280px) {
+
+.all {
+  top: 100%;
+}
+}
+
 .container {
   height: 120px;
   flex-grow: 1;
@@ -146,19 +169,24 @@
     top: 0;
     z-index: 50;
   }
+
   20% {
     transform: scale(1.0);
   }
+
   50% {
     top: 100%;
   }
+
   50.1% {
     z-index: 0;
   }
+
   75% {
     transform: scale(0.8);
     z-index: 0;
   }
+
   100% {
     top: 0;
     z-index: 2;
@@ -170,19 +198,24 @@
     top: calc(100% - 5px);
     z-index: 1;
   }
+
   25% {
     transform: scale(0.8);
   }
+
   50% {
     top: 0;
   }
+
   50.1% {
     z-index: 2;
   }
+
   80% {
     transform: scale(1.0);
     z-index: 2;
   }
+
   100% {
     top: calc(100% - 5px);
     z-index: 0;
