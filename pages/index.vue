@@ -166,7 +166,7 @@
 
 @media (min-width: 1440px) {
   .all {
-    top: 80%;
+    top: 78%;
   }
 }
 
