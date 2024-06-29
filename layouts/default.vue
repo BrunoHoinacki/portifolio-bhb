@@ -1,7 +1,7 @@
 <template>
   <div class="min-h-screen flex flex-col bg-black">
     <div class="flex flex-col">
-      <div class="container mx-auto py-4">
+      <div class="container mx-auto">
         <AppHeader />
       </div>
     </div>
