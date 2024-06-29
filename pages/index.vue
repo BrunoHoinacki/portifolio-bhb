@@ -109,8 +109,11 @@
     <div class="text-white text-lg underline decoration-2 underline-offset-8 mb-10 w-full font-sans">
       <NuxtLink to="/projects">Conheça os cases<i class="fa-solid fa-arrow-right ml-2 text-brand-blue"></i></NuxtLink>
     </div>
-    <div class="w-full h-32 my-8 border-brand-blue border-l-2">
-      <div class="flex overflow-x-scroll overflow-y-none h-full">
+    <div class="w-full h-32 my-8 border-brand-blue border-l-2 overflow-hidden">
+      <div class="image-container">
+        <img src="~/assets/logos/logo-text-white.png" alt="">
+        <img src="~/assets/logos/logo-text-white.png" alt="">
+        <img src="~/assets/logos/logo-text-white.png" alt="">
         <img src="~/assets/logos/logo-text-white.png" alt="">
         <img src="~/assets/logos/logo-text-white.png" alt="">
         <img src="~/assets/logos/logo-text-white.png" alt="">
@@ -125,6 +128,7 @@
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
 
+/* Classes para a animacao de DNA */
 .all {
   display: flex;
   justify-content: space-between;
@@ -305,5 +309,26 @@
 
 .container:nth-child(12) .circle {
   animation-delay: -1.1s;
+}
+
+/* Classes para o loop de imagens */
+.image-container {
+  display: flex;
+  animation: scroll 9s linear infinite;
+  margin-left: 10px;
+}
+
+.image-container img {
+  margin-right: 10px;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
 }
 </style>
