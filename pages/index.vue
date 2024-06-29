@@ -1,26 +1,13 @@
 <template>
   <div>
-    <div class="typing-container mt-1">
-      <AnimeTypingEffects />
-    </div>
-    <div>
-      <ThreeScene />
+    <div class="text-[7rem] justify-center pl-8">
+      <p class="">Soluções digitais
+        de</p><p class="underline">alta performance.</p>
     </div>
   </div>
 </template>
 
 <script>
-import ThreeScene from '~/components/ThreeJS/ThreeScene.vue';
-
-export default {
-  components: {
-    ThreeScene
-  }
-};
 </script>
 
-<style>
-.typing-container {
-    min-height: 100px; 
-}
-</style>
+<style></style>

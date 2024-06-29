@@ -2,7 +2,7 @@ export default defineNuxtConfig({
   app: {
     head: {
       htmlAttrs: {
-        lang: 'pt-br' 
+        lang: 'pt-br'
       },
       title: 'Bruno Hoinacki - Desenvolvedor Fullstack',
       meta: [
@@ -10,10 +10,7 @@ export default defineNuxtConfig({
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         { name: 'description', content: 'Conheça o portfólio de Bruno Hoinacki, desenvolvedor fullstack' },
         { name: 'author', content: 'Bruno Hoinacki' },
-        { name: 'robots', content: 'index, follow' } 
-      ],
-      script: [
-        { innerHTML: 'console.log(\'Funcionando\')' }
+        { name: 'robots', content: 'index, follow' }
       ],
       bodyAttrs: {
         class: 'test'

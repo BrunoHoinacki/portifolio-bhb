@@ -1,16 +1,13 @@
 {
-  "name": "nuxt-app",
-  "private": true,
-  "type": "module",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev --host",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "clean": "rimraf dist/ .nuxt/"
   },
   "dependencies": {
-    "@nuxtjs/color-mode": "^3.4.0",
     "animate.css": "^4.1.1",
     "animejs": "^3.2.2",
     "nuxt": "^3.11.2",
@@ -19,6 +16,8 @@
     "vue-router": "^4.3.0"
   },
   "devDependencies": {
-    "@nuxt/ui": "npm:@nuxt/ui-edge@latest"
+    "@nuxt/ui": "npm:@nuxt/ui-edge@latest",
+    "@nuxtjs/color-mode": "^3.4.2",
+    "rimraf": "^3.0.2"
   }
 }

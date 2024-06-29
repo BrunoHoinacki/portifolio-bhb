@@ -1,6 +1,16 @@
 <template>
-  <AppHeader />
-  <UContainer>
-    <slot />
-  </UContainer>
+  <div class="min-h-screen flex flex-col">
+    <div class="flex flex-col">
+      <div class="container mx-auto py-4">
+        <AppHeader />
+      </div>
+    </div>
+    <div class="flex-1 flex flex-col">
+      <div class="container mx-auto flex-1">
+        <main>
+          <slot />
+        </main>
+      </div>
+    </div>
+  </div>
 </template>
