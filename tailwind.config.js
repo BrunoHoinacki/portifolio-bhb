@@ -12,6 +12,9 @@ export default {
       colors: {
         'brand-blue': '#0651F5',
       },
+      textColor: {
+        DEFAULT: '#ffffff',
+      },
     },
   },
   plugins: [],
