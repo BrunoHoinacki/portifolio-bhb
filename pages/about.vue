@@ -1,6 +1,6 @@
 <template>
-  <div class="bg-black">
-    <main class="text-center py-10 ">
+  <div class="pt-28">
+    <main class="text-center py-10">
       <div class="text-3xl md:text-4xl mb-8 animate__animated animate__fadeInDown">Olá, sou Bruno Hoinacki!</div>
 
       <div class="text-lg md:text-xl max-w-4xl mx-auto animate__animated animate__fadeIn">

@@ -23,7 +23,7 @@
                     <p class="hidden xl:block xl:mx-3 my-2 text-brand-blue font-semibold">•</p>
                     <NuxtLink
                         class="hidden xl:block xl:mx-3 my-2 hover:decoration-brand-blue hover:underline hover:underline-offset-4 hover:decoration-2 text-base text-nowrap transition duration-700 ease-in-out"
-                        to="/shop">
+                        to="/agencies">
                         Para
                         agências
                     </NuxtLink>

@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="pt-28">
         <p>Projects</p>
     </div>
 </template>

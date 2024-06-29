@@ -1,6 +1,6 @@
 <template>
-    <div>
-        <p>Shop</p>
+    <div class="pt-28">
+        <p>Para Agencias</p>
     </div>
 </template>
 
