@@ -53,8 +53,8 @@
           </p>
         </div>
       </div>
-      <div class="mt-28 h-44 md:h-48 xl:h-72">
-        <div class="all xl:mt-2">
+      <div class="w-full">
+        <div class="all py-28">
           <div class="container">
             <div class="circle"></div>
             <div class="circle"></div>
@@ -100,6 +100,10 @@
             <div class="circle"></div>
           </div>
           <div class="container">
+            <div class="circle"></div>
+            <div class="circle"></div>
+          </div>
+          <div class="container hidden xl:block">
             <div class="circle"></div>
             <div class="circle"></div>
           </div>
@@ -202,74 +206,41 @@
 .all {
   display: flex;
   justify-content: space-between;
-  position: absolute;
-  top: 100%;
-  left: 50%;
+  /* Distribui os containers uniformemente */
+  position: relative;
+  /* Alterado de absolute para relative */
   width: 100%;
-  transform: translate(-50%, -50%);
+  top: 0;
+  /* Remover o top absoluto */
+  left: 0;
+  /* Remover o left absoluto */
+  transform: none;
+  /* Remover o translate */
+  gap: 16px;
 }
 
-@media screen and (min-width: 320px) {
-  .all {
-    top: 110%;
+@media screen and (max-width: 768px) {
+  .all{
+    gap: 0px;
   }
 }
 
-@media screen and (min-width: 360px) {
-  .all {
-    top: 105%;
-  }
-}
 
-@media screen and (min-width: 375px) {
-  .all {
-    top: 97%;
-  }
-}
-
-@media screen and (min-width: 425px) {
-  .all {
-    top: 100%;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .all {
-    top: 70%;
-  }
-}
-
-@media (min-width: 1024px) {
-  .all {
-    top: 70%;
-  }
-}
-
-@media (min-width: 1280px) {
-  .all {
-    top: 90%;
-  }
-}
-
-@media (min-width: 1440px) {
-  .all {
-    top: 85%;
-  }
-}
-
+/* Ajuste para o container para manter os elementos na horizontal */
 .container {
-  height: 120px;
-  flex-grow: 1;
+  height: 90px;
   display: flex;
   justify-content: center;
+  position: relative;
+  /* Certificando que os círculos fiquem dentro do container */
 }
 
+/* Ajuste para os círculos para animar no eixo Y */
 .container .circle {
-  width: 20px;
-  height: 20px;
+  width: 10px;
+  height: 10px;
   border-radius: 50%;
   position: absolute;
-  top: 0;
 }
 
 .container .circle:nth-child(1) {
@@ -280,7 +251,7 @@
 
 .container .circle:nth-child(2) {
   top: calc(100% - 5px);
-  transform: scale(1.0);
+  transform: translateX(-50%) scale(1.0);
   animation: anim_b 3s infinite ease-in-out;
   background-color: #e1e1e1;
 }
@@ -292,7 +263,7 @@
   }
 
   20% {
-    transform: scale(1.0);
+    transform: translateX(-50%) scale(1.0);
   }
 
   50% {
@@ -304,7 +275,7 @@
   }
 
   75% {
-    transform: scale(0.8);
+    transform: translateX(-50%) scale(0.8);
     z-index: 0;
   }
 
@@ -321,7 +292,7 @@
   }
 
   25% {
-    transform: scale(0.8);
+    transform: translateX(-50%) scale(0.8);
   }
 
   50% {
@@ -333,7 +304,7 @@
   }
 
   80% {
-    transform: scale(1.0);
+    transform: translateX(-50%) scale(1.0);
     z-index: 2;
   }
 
