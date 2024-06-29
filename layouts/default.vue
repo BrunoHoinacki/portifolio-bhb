@@ -2,16 +2,17 @@
   <div class="min-h-screen flex flex-col bg-black">
     <div class="fixed top-0 w-full bg-transparent backdrop-blur-md z-50 border-b-2 border-brand-blue">
       <div class="container mx-auto">
-        <AppHeader />
+        <AppHeader @toggle-menu="showMenu = !showMenu" />
       </div>
     </div>
-    <div class="hidden" id="menu">
+    <div v-if="showMenu">
       <MenuLateral />
     </div>
-    <div class="">
+    <div v-else>
       <main>
         <slot />
       </main>
+      <AppFooter />
     </div>
   </div>
 </template>
@@ -25,5 +26,10 @@ export default {
     MenuLateral,
     AppHeader,
   },
+  data() {
+    return {
+      showMenu: false
+    };
+  }
 };
 </script>
