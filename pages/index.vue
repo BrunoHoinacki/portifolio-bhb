@@ -50,7 +50,7 @@
         </p>
       </div>
     </div>
-    <div class="mt-20 h-28 md:h-48 xl:h-72">
+    <div class="mt-20 h-32 md:h-48 xl:h-72">
       <div class="all xl:mt-2">
         <div class="container">
           <div class="circle"></div>
@@ -136,7 +136,7 @@
 
 @media screen and (min-width: 360px) {
   .all {
-    top: 80%;
+    top: 83%;
   }
 }
 
