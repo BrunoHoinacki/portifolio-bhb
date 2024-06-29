@@ -25,11 +25,11 @@ useSeoMeta({
   ogTitle: 'Elleva - Criação de Site e Plataformas Web',
   description: 'Criação de Sites e Plataformas Web de alta qualidade e inovação.',
   ogDescription: 'Criação de Sites e Plataformas Web de alta qualidade e inovação.',
-  ogImage: '',
+  ogImage: '/og-image.png',
   twitterCard: 'summary_large_image',
   twitterTitle: 'Elleva - Criação de Site e Plataformas Web',
   twitterDescription: 'Criação de Sites e Plataformas Web de alta qualidade e inovação.',
-  twitterImage: '',
+  twitterImage: '/og-image.png',
   keywords: 'elleva, eleva website, eleva site, eleva platform, eleva platform website, eleva platform site',
   robots: 'index, follow',
 })
