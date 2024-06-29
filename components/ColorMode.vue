@@ -1,13 +1,12 @@
 <template>
     <div>
         <button @click="toggleColorMode">
-            <i :class="iconClass"></i> Toggle Color Mode
+            <font-awesome-icon :icon="iconName" />
         </button>
     </div>
 </template>
 
 <script setup>
-
 import { ref, computed } from 'vue'
 
 const colorMode = useColorMode()
@@ -22,14 +21,14 @@ const toggleColorMode = () => {
     }
 }
 
-const iconClass = computed(() => {
+const iconName = computed(() => {
     switch (colorMode.preference) {
         case 'light':
-            return 'fas fa-sun' // Exemplo de classe de ícone do FontAwesome para sol
+            return 'sun'
         case 'dark':
-            return 'fas fa-moon' // Exemplo de classe de ícone do FontAwesome para lua
+            return 'moon'
         case 'sepia':
-            return 'fas fa-book' // Exemplo de classe de ícone do FontAwesome para livro (sepia)
+            return 'book'
         default:
             return ''
     }

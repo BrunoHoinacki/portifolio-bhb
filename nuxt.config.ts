@@ -27,4 +27,5 @@ export default defineNuxtConfig({
   colorMode: {
     preference: 'light'
   },
+  plugins: ['~/plugins/fontawesome.js']
 })

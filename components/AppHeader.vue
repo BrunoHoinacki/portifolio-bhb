@@ -30,7 +30,7 @@
                     <a href="" class="mx-2 sm:mx-4 md:mx-5 xl:mx-4 text-base">ES</a>
                     <a href="" class="mx-2 sm:mx-4 md:mx-5 xl:mx-4 text-base">EN</a>
                 </div>
-                <div class="flex justify-center">
+                <div class="flex justify-center ml-6">
                     <ColorMode />
                 </div>
             </div>
