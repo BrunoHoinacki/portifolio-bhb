@@ -25,11 +25,11 @@ useSeoMeta({
   ogTitle: 'Elleva - Criação de Site e Plataformas Web',
   description: 'Elleva oferece criação de sites e plataformas web inovadoras e de alta qualidade. Personalizamos soluções para atender às suas necessidades específicas.',
   ogDescription: 'Elleva oferece criação de sites e plataformas web inovadoras e de alta qualidade. Personalizamos soluções para atender às suas necessidades específicas.',
-  ogImage: '/og-image.png',
+  ogImage: '/og-image.jpg',
   twitterCard: 'summary_large_image',
   twitterTitle: 'Elleva - Criação de Site e Plataformas Web',
   twitterDescription: 'Elleva oferece criação de sites e plataformas web inovadoras e de alta qualidade. Personalizamos soluções para atender às suas necessidades específicas.',
-  twitterImage: '/og-image.png',
+  twitterImage: '/og-image.jpg',
   keywords: 'elleva, criação de sites, plataformas web, desenvolvimento web, sites inovadores, soluções web',
   robots: 'index, follow',
 })
