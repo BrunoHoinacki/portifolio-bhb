@@ -128,9 +128,15 @@
   transform: translate(-50%, -50%);
 }
 
+@media screen and (min-width: 300px) {
+  .all {
+    top: 100%;
+  }
+}
+
 @media screen and (min-width: 360px) {
   .all {
-    top: 97%;
+    top: 105%;
   }
 }
 
