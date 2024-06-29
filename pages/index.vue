@@ -128,9 +128,9 @@
   transform: translate(-50%, -50%);
 }
 
-@media screen and (min-width: 300px) {
+@media screen and (min-width: 320px) {
   .all {
-    top: 100%;
+    top: 110%;
   }
 }
 
