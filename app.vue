@@ -40,6 +40,8 @@ useHead({
     { name: 'viewport', content: 'width=device-width, initial-scale=1' },
     { name: 'theme-color', content: '#000' },
     { name: 'language', content: 'pt-BR' },
+    { property: 'og:site_name', content: 'Elleva' },
+    { property: 'og:url', content: 'https://www.elleva.com.br' },
   ],
   link: [
     { rel: 'icon', type: 'image/png', href: '/favicon.png' },
