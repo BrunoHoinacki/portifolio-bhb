@@ -176,7 +176,7 @@
           </div>
           <div class="flex flex-col flex-grow h-full mt-8 xl:mt-0">
             <div class="flex flex-row mt-12 items-center h-10">
-              <i class="fa-solid fa-store text-white bg-brand-blue rounded-full p-5"></i>
+              <i class="fa-solid fa-network-wired text-white bg-brand-blue rounded-full p-5"></i>
               <h2 class="text-2xl text-black pl-4 font-bold">Integrações entre sistemas</h2>
             </div>
             <p class="text-lg text-slate-600 pt-6">
