@@ -37,6 +37,7 @@ export default defineNuxtConfig({
   },
   css: [
     '~/assets/css/main.css',
+    '~/assets/css/pages/index.css', 
   ],
   postcss: {
     plugins: {

@@ -139,7 +139,7 @@
         <div class="text-3xl xl:text-6xl w-full pb-4 font-extralight text-black xl:pt-28 pt-16 font-space-grotesk">
           <p>{{ $t("title-4") }}<strong class="font-extrabold">{{ $t("title-5") }}</strong></p>
         </div>
-        <div class="flex xl:flex-row flex-col justify-between gap-x-16 pb-16">
+        <div class="flex xl:flex-row flex-col justify-between gap-x-16 pb-16 overflow-x-scroll overflow-y-hidden">
           <div class="flex flex-col flex-grow h-full">
             <div class="flex flex-row mt-12 items-center h-10">
               <i class="fa-solid fa-laptop-code text-white bg-brand-blue rounded-full p-5"></i>
@@ -166,6 +166,22 @@
               Laravel. Nossa equipe altamente qualificada garante projetos excepcionais, desde a configuração inicial
               até
               a personalização avançada.</p>
+            <NuxtLink to="/projects" class="flex items-center pt-4">
+              <p
+                class="text-brand-blue hover:decoration-brand-blue hover:underline hover:decoration-2 hover:underline-offset-4 transition duration-700 ease-in-out hover:pr-1">
+                {{ $t("about?") }}
+              </p>
+              <i class="fa-solid fa-arrow-right ml-2 text-brand-blue"></i>
+            </NuxtLink>
+          </div>
+          <div class="flex flex-col flex-grow h-full mt-8 xl:mt-0">
+            <div class="flex flex-row mt-12 items-center h-10">
+              <i class="fa-solid fa-store text-white bg-brand-blue rounded-full p-5"></i>
+              <h2 class="text-2xl text-black pl-4 font-bold">Integrações entre sistemas</h2>
+            </div>
+            <p class="text-lg text-slate-600 pt-6">
+              Realizamos a integramos com sistemas de gestão de vendas, contabilidade, financeiro e marketing.
+            </p>
             <NuxtLink to="/projects" class="flex items-center pt-4">
               <p
                 class="text-brand-blue hover:decoration-brand-blue hover:underline hover:decoration-2 hover:underline-offset-4 transition duration-700 ease-in-out hover:pr-1">
@@ -230,174 +246,4 @@
 
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
-
-/* Classes para a animacao de DNA */
-.all {
-  display: flex;
-  justify-content: space-between;
-  /* Distribui os containers uniformemente */
-  position: relative;
-  /* Alterado de absolute para relative */
-  width: 100%;
-  top: 0;
-  /* Remover o top absoluto */
-  left: 0;
-  /* Remover o left absoluto */
-  transform: none;
-  /* Remover o translate */
-  gap: 16px;
-}
-
-/* Ajuste para o container para manter os elementos na horizontal */
-.container {
-  height: 90px;
-  display: flex;
-  justify-content: center;
-  position: relative;
-  /* Certificando que os círculos fiquem dentro do container */
-}
-
-/* Ajuste para os círculos para animar no eixo Y */
-.container .circle {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  position: absolute;
-}
-
-.container .circle:nth-child(1) {
-  top: 0;
-  animation: anim_a 3s infinite ease-in-out;
-  background-color: #0651F5;
-}
-
-.container .circle:nth-child(2) {
-  top: calc(100% - 5px);
-  transform: translateX(-50%) scale(1.0);
-  animation: anim_b 3s infinite ease-in-out;
-  background-color: #e1e1e1;
-}
-
-@keyframes anim_a {
-  0% {
-    top: 0;
-    z-index: 30;
-  }
-
-  20% {
-    transform: translateX(-50%) scale(1.0);
-  }
-
-  50% {
-    top: 100%;
-  }
-
-  50.1% {
-    z-index: 0;
-  }
-
-  75% {
-    transform: translateX(-50%) scale(0.8);
-    z-index: 0;
-  }
-
-  100% {
-    top: 0;
-    z-index: 2;
-  }
-}
-
-@keyframes anim_b {
-  0% {
-    top: calc(100% - 5px);
-    z-index: 1;
-  }
-
-  25% {
-    transform: translateX(-50%) scale(0.8);
-  }
-
-  50% {
-    top: 0;
-  }
-
-  50.1% {
-    z-index: 2;
-  }
-
-  80% {
-    transform: translateX(-50%) scale(1.0);
-    z-index: 2;
-  }
-
-  100% {
-    top: calc(100% - 5px);
-    z-index: 0;
-  }
-}
-
-.container:nth-child(2) .circle {
-  animation-delay: -0.1s;
-}
-
-.container:nth-child(3) .circle {
-  animation-delay: -0.2s;
-}
-
-.container:nth-child(4) .circle {
-  animation-delay: -0.3s;
-}
-
-.container:nth-child(5) .circle {
-  animation-delay: -0.4s;
-}
-
-.container:nth-child(6) .circle {
-  animation-delay: -0.5s;
-}
-
-.container:nth-child(7) .circle {
-  animation-delay: -0.6s;
-}
-
-.container:nth-child(8) .circle {
-  animation-delay: -0.7s;
-}
-
-.container:nth-child(9) .circle {
-  animation-delay: -0.8s;
-}
-
-.container:nth-child(10) .circle {
-  animation-delay: -0.9s;
-}
-
-.container:nth-child(11) .circle {
-  animation-delay: -1s;
-}
-
-.container:nth-child(12) .circle {
-  animation-delay: -1.1s;
-}
-
-/* Classes para o loop de imagens */
-.image-container {
-  display: flex;
-  animation: scroll 9s linear infinite;
-  margin-left: 10px;
-}
-
-.image-container img {
-  margin-right: 10px;
-}
-
-@keyframes scroll {
-  0% {
-    transform: translateX(100%);
-  }
-
-  100% {
-    transform: translateX(-100%);
-  }
-}
 </style>
