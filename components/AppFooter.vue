@@ -32,7 +32,7 @@
                     </NuxtLink>
                 </div>
             </div>
-            <div class="relative flex flex-row">
+            <div class="relative flex flex-col xl:flex-row pb-16">
                 <div class="text-sm xl:text-2xl pb-8">
                     <div class="pt-5 flex flex-col">
                         <p class="xl:text-lg">E-mail</p>
@@ -49,7 +49,7 @@
                             class="font-semibold">R. 15 de Novembro, 10, Vale dos Pinheiros - Gramado/RS</a>
                     </div>
                 </div>
-                <div class="absolute bottom-0 right-0 pt-16 align-middle items-center pb-8 pr-4">
+                <div class="xl:absolute xl:bottom-16 xl:right-0 xl:pt-16 align-middle items-center pb-8 pr-4">
                     <div class="flex flex-row gap-4 align-middle items-center">
                         <a class="text-3xl hover:text-brand-blue" href="https://www.instagram.com/this.bruno_hoinacki/"
                             aria-label="Instagram">
@@ -60,6 +60,17 @@
                             <i class="fa-brands fa-whatsapp p-3 border-2 border-brand-blue rounded-full"></i>
                         </a>
                     </div>
+                </div>
+            </div>
+            <div class="flex flex-row pt-8 pb-12 w-full">
+                <div class="text-sm xl:text-sm text-white flex flex-col xl:flex-row xl:justify-between w-full gap-y-4">
+                    <p class="xl:flex-1">Elleva © 2024 - CNPJ: 53.329.473/0001-01</p>
+                    <p class="xl:flex-1 xl:text-center">Todos os direitos reservados</p>
+                    <NuxtLink
+                        class="xl:flex-1 xl:text-right hover:underline hover:underline-offset-4 hover:decoration-2 hover:decoration-brand-blue"
+                        to="/privacy">
+                        Politica de privacidade
+                    </NuxtLink>
                 </div>
             </div>
         </footer>
