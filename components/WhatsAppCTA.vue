@@ -60,7 +60,7 @@ export default {
             let encodedMessage = encodeURIComponent(this.form.message);
             let whatsappUrl = `https://wa.me/${this.form.number}?text=${encodedMessage}`;
             window.open(whatsappUrl, '_blank');
-            this.form.message = "Conversar agora!";
+            this.form.message = "";
         }
     }
 };
