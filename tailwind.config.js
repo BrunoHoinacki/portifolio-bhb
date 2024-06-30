@@ -10,12 +10,16 @@ export default {
   theme: {
     extend: {
       colors: {
-        'brand-blue': '#0651F5',
+        'brand-blue': '#0651F5'
       },
       textColor: {
-        DEFAULT: '#ffffff',
+        DEFAULT: '#ffffff'
       },
-    },
+      borderRadius: {
+        '4xl': '2rem',
+        '5xl': '2.5rem'
+      }
+    }
   },
-  plugins: [],
+  plugins: []
 }

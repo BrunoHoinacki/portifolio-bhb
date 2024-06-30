@@ -123,7 +123,8 @@
             </div>
           </div>
           <div class="w-full xl:w-3/4 xl:flex xl:flex-col xl:justify-center">
-            <div class="w-full h-32 xl:h-28 mt-8 lx:mb-28 border-brand-blue border-l-2 overflow-hidden flex items-center">
+            <div
+              class="w-full h-32 xl:h-28 mt-8 lx:mb-28 border-brand-blue border-l-2 overflow-hidden flex items-center">
               <div class="image-container flex">
                 <img src="~/assets/logos/logo-text-white.png" alt="">
                 <img src="~/assets/logos/logo-text-white.png" alt="">
@@ -192,6 +193,29 @@
             </NuxtLink>
           </div>
         </div>
+      </div>
+    </div>
+    <div class="bg-brand-blue px-6 xl:px-24 xl:py-28 pt-28">
+      <div class="xl:grid xl:grid-cols-2 flex flex-col gap-8">
+        <img src="https://picsum.photos/600/800?random=1" alt="Fotos de projetos" class="hidden xl:block rounded-5xl">
+        <div class="text-right pb-4">
+          <h2 class="xl:text-8xl text-5xl" style="font-family: 'Space Grotesk', sans-serif;">Cases</h2>
+          <p class="font-bold pt-6">Não utilizamos templates prontos.</p>
+          <p class="">Cada projeto é planejado e desenvolvido sob medida por uma equipe especializada em UX/UI Design,
+            com um
+            layout exclusivo, para atender as necessidades específicas do seu negócio e sua identidade visual</p>
+        </div>
+        <img src="https://picsum.photos/600/800?random=2" alt="Fotos de projetos" class="rounded-5xl">
+        <img src="https://picsum.photos/600/800?random=3" alt="Fotos de projetos" class="rounded-5xl">
+        <img src="https://picsum.photos/600/800?random=4" alt="Fotos de projetos" class="rounded-5xl">
+        <img src="https://picsum.photos/600/800?random=5" alt="Fotos de projetos" class="rounded-5xl">
+      </div>
+      <div class="xl:pt-36 py-20 flex justify-center">
+        <NuxtLink
+          class="px-5 py-5 text-2xl rounded-full bg-brand-blue border border-white text-white text-nowrap transition duration-700 ease-in-out hover:text-brand-blue hover:bg-white"
+          to="/contact">
+          Veja mais cases
+        </NuxtLink>
       </div>
     </div>
   </div>
