@@ -1,7 +1,7 @@
 <template>
     <div class="bg-white">
         <WhatsAppCTA class="animate__animated animate__slideInRight pb-3" />
-        <footer class="bottom-0 w-full bg-black text-white px-6 xl:px-24 xl:rounded-t-5xl xl:rounded-b-none">
+        <footer class="bottom-0 w-full bg-black text-white px-6 xl:px-24 xl:rounded-t-7xl xl:rounded-b-none">
             <div class="flex items-center pt-4 pb-12">
                 <NuxtLink to="/" class="">
                     <img class="h-24" src="~/assets/logos/logo-text-white.png" alt="Logo Elleva">
