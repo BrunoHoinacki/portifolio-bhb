@@ -3,8 +3,8 @@
     <div class="bg-black pt-28 px-6 xl:px-14 pb-28">
       <div class="flex flex-col items-center justify-start h-full text-white md:px-16 pt-6 xl:pt-0 xl:pl-10">
         <div class="text-5xl xl:text-[7rem] w-full pb-4 font-extralight font-space-grotesk">
-          <p>Soluções digitais de</p>
-          <p class="underline decoration-brand-blue decoration-4 underline-offset-8">alta performance.</p>
+          <p>{{ $t("title-1") }}</p>
+          <p class="underline decoration-brand-blue decoration-4 underline-offset-8">{{ $t("title-2") }}</p>
         </div>
         <div class="flex xl:flex-row flex-col items-center">
           <div class="xl:flex flex-col items-center mt-8 basis-1/4 hidden">
@@ -33,24 +33,20 @@
             </div>
             <div class="flex items-center justify-center mt-4">
               <span class="text-brand-blue text-xl mx-1">&lt; / &gt;</span>
-              <span class="text-white text-xl mx-1">nosso dna é digital</span>
+              <span class="text-white text-xl mx-1">{{ $t("dna") }}</span>
               <span class="text-brand-blue text-xl mx-1">&lt; / &gt;</span>
             </div>
           </div>
           <div class="xl:hidden flex mt-8 w-full justify-center">
             <div class="flex items-center justify-center flex-nowrap">
               <span class="text-brand-blue text-2xl mx-1 whitespace-nowrap">&lt; / &gt;</span>
-              <span class="text-white text-2xl mx-1 whitespace-nowrap">nosso dna é digital</span>
+              <span class="text-white text-2xl mx-1 whitespace-nowrap">{{ $t("dna") }}</span>
               <span class="text-brand-blue text-2xl mx-1 whitespace-nowrap">&lt; / &gt;</span>
             </div>
           </div>
           <div class="flex mt-8 basis-1/2 xl:ml-52">
             <p class="xl:px-4 text-base leading-6 lg:text-xl text-justify">
-              A Elleva é uma software house especializada no desenvolvimento de projetos digitais com foco em
-              usabilidade
-              e
-              conversão. Reunimos profissionais criativos, qualificados e com anos de experiência para garantirmos
-              excelência em cada etapa do projeto.
+              {{ $t("description") }}
             </p>
           </div>
         </div>

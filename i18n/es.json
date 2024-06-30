@@ -1,8 +1,12 @@
 {
-    "es": {
-        "about": "O que hacemos",
-        "cases": "Proyectos",
-        "agencies": "Para agencias",
-        "contact": "Contáctenos"
-    }
+  "es": {
+    "about": "O que hacemos",
+    "cases": "Proyectos",
+    "agencies": "Para agencias",
+    "contact": "Contáctenos",
+    "title-1": "Soluciones digitales",
+    "title-2": "de alto desempeño.",
+    "dna": "nuestro dna digital",
+    "description": "Elleven es una casa de software especializada en el desarrollo de proyectos digitales con enfoque en usabilidad y conversión. Reunimos a profesionales creativos, cualificados y con años de experiencia para garantizar la excelencia en cada etapa del proyecto."
+  }
 }
