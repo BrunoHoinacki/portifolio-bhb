@@ -15,6 +15,7 @@
                     </div>
                     <div class="p-4 py-6">
                         <input type="text" name="message" id="message" v-model="form.message" maxlength="140"
+ placeholder="Edite sua mensagem..."
                             title="Mensagem"
                             class="w-full px-4 py-4 rounded-full text-sm hover:border-gray-500 focus:ring-brand-blue focus:outline-none border-2 border-brand-blue text-brand-blue bg-white cursor-pointer">
                     </div>
@@ -42,7 +43,7 @@ export default {
         return {
             isOpen: false,
             form: {
-                message: "Conversar agora!",
+                message: "",
                 number: '5551980456224'
             }
         }
