@@ -2,8 +2,7 @@
   <div>
     <div class="bg-black pt-28 px-6 xl:px-14 pb-28">
       <div class="flex flex-col items-center justify-start h-full text-white md:px-16 pt-6 xl:pt-0 xl:pl-10">
-        <div class="text-5xl xl:text-[7rem] w-full pb-4 font-extralight"
-          style="font-family: 'Space Grotesk', sans-serif;">
+        <div class="text-5xl xl:text-[7rem] w-full pb-4 font-extralight font-space-grotesk">
           <p>Soluções digitais de</p>
           <p class="underline decoration-brand-blue decoration-4 underline-offset-8">alta performance.</p>
         </div>
@@ -140,8 +139,7 @@
     </div>
     <div class="bg-white px-6 xl:px-24">
       <div class="h-full">
-        <div class="text-3xl xl:text-6xl w-full pb-4 font-extralight text-black xl:pt-28 pt-16"
-          style="font-family: 'Space Grotesk', sans-serif;">
+        <div class="text-3xl xl:text-6xl w-full pb-4 font-extralight text-black xl:pt-28 pt-16 font-space-grotesk">
           <p>Agencia especializada em <strong class="font-extrabold">Laravel e Vue.JS</strong></p>
         </div>
         <div class="flex xl:flex-row flex-col justify-between gap-x-16 pb-16">
@@ -195,20 +193,26 @@
         </div>
       </div>
     </div>
-    <div class="bg-brand-blue px-6 xl:px-24 xl:py-28 pt-28">
-      <div class="xl:grid xl:grid-cols-2 flex flex-col gap-8">
-        <img src="https://picsum.photos/600/800?random=1" alt="Fotos de projetos" class="hidden xl:block rounded-5xl">
-        <div class="text-right pb-4">
-          <h2 class="xl:text-8xl text-5xl" style="font-family: 'Space Grotesk', sans-serif;">Cases</h2>
+    <div class="bg-brand-blue px-6 xl:px-24 xl:py-28 pt-12">
+      <div class="max-w-5xl mx-auto p-8">
+        <div class="pb-8 text-right">
+          <h2 class="xl:text-8xl text-5xl font-space-grotesk">
+            Cases
+          </h2>
           <p class="font-bold pt-6">Não utilizamos templates prontos.</p>
-          <p class="">Cada projeto é planejado e desenvolvido sob medida por uma equipe especializada em UX/UI Design,
-            com um
-            layout exclusivo, para atender as necessidades específicas do seu negócio e sua identidade visual</p>
+          <p class="">Cada projeto é planejado e desenvolvido sob medida por uma equipe especializada em UX/UI
+            Design, com um layout exclusivo, para atender as necessidades específicas do seu negócio e sua identidade
+            visual.</p>
         </div>
-        <img src="https://picsum.photos/600/800?random=2" alt="Fotos de projetos" class="rounded-5xl">
-        <img src="https://picsum.photos/600/800?random=3" alt="Fotos de projetos" class="rounded-5xl">
-        <img src="https://picsum.photos/600/800?random=4" alt="Fotos de projetos" class="rounded-5xl">
-        <img src="https://picsum.photos/600/800?random=5" alt="Fotos de projetos" class="rounded-5xl">
+        <div class="grid grid-cols-1 xl:grid-cols-2 gap-8">
+          <img src="https://picsum.photos/600/800?random=1" alt="Fotos de projetos" class="rounded-5xl md:row-span-2">
+          <img src="https://picsum.photos/600/800?random=2" alt="Fotos de projetos"
+            class="rounded-5xl md:row-start-2 md:col-start-2">
+          <img src="https://picsum.photos/600/800?random=3" alt="Fotos de projetos" class="rounded-5xl md:row-span-2">
+          <img src="https://picsum.photos/600/800?random=4" alt="Fotos de projetos"
+            class="rounded-5xl md:row-start-4 md:col-start-2">
+          <img src="https://picsum.photos/600/800?random=5" alt="Fotos de projetos" class="rounded-5xl md:row-span-2">
+        </div>
       </div>
       <div class="xl:pt-36 py-20 flex justify-center">
         <NuxtLink

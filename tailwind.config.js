@@ -20,6 +20,10 @@ export default {
         '5xl': '2.5rem',
         '6xl': '3.5rem',
         '7xl': '5rem'
+      },
+      fontFamily: {
+        sans: ['Lexend', 'sans-serif'],
+        'space-grotesk': ['Space Grotesk', 'sans-serif']
       }
     }
   },
