@@ -52,7 +52,7 @@
                             15 de Novembro, 10, Vale dos Pinheiros - Gramado/RS</a>
                     </div>
                 </div>
-                <div class="xl:absolute xl:bottom-16 xl:right-0 xl:pt-16 align-middle items-center pb-8 pr-4">
+                <div class="xl:absolute xl:bottom-16 xl:right-0 xl:pt-16 align-middle items-center xl:pb-8 pr-4">
                     <div class="flex flex-row gap-4 align-middle items-center">
                         <a class="text-3xl hover:text-brand-blue" href="https://www.instagram.com/this.bruno_hoinacki/"
                             aria-label="Instagram">
@@ -67,7 +67,7 @@
                     </div>
                 </div>
             </div>
-            <div class="flex flex-row pt-8 pb-12 w-full">
+            <div class="flex flex-row xl:pt-8 pb-12 w-full">
                 <div class="text-sm xl:text-sm text-white flex flex-col xl:flex-row xl:justify-between w-full gap-y-4">
                     <p class="xl:flex-1">Elleva © 2024 - CNPJ: 53.329.473/0001-01</p>
                     <p class="xl:flex-1 xl:text-center">Todos os direitos reservados</p>
