@@ -1,12 +1,17 @@
 {
     "en": {
         "about": "What we do",
+        "about?": "What we do?",
         "cases": "Cases",
         "agencies": "For agencies",
         "contact": "Contact us",
         "title-1": "Digital solutions for",
         "title-2": "high performance.",
+        "title-3": "These brands believe in our DNA.",
+        "title-4": "Agency specialized in ",
+        "title-5": "Laravel and Vue.js",
         "dna": "our dna is digital",
+        "read-cases": "Read the cases",
         "description": "Elleven is a software house specialized in developing digital projects with a focus on usability and conversion. We bring together creative, qualified professionals with years of experience to guarantee excellence at each stage of the project."
     }
 }

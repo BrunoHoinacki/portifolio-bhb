@@ -10,25 +10,25 @@
                     <NuxtLink
                         class="hidden xl:block xl:mx-3 my-2 hover:decoration-brand-blue hover:underline hover:underline-offset-4 hover:decoration-2 text-base text-nowrap transition duration-700 ease-in-out"
                         to="/about">
-                        O que fazemos
+                        {{ $t("about") }}
                     </NuxtLink>
                     <p class="hidden xl:block xl:mx-3 my-2 text-brand-blue">•</p>
                     <NuxtLink
                         class="hidden xl:block xl:mx-3 my-2 hover:decoration-brand-blue hover:underline hover:underline-offset-4 hover:decoration-2 text-base text-nowrap transition duration-700 ease-in-out"
                         to="/projects">
-                        Cases
+                        {{ $t("cases") }}
                     </NuxtLink>
                     <p class="hidden xl:block xl:mx-3 my-2 text-brand-blue font-semibold">•</p>
                     <NuxtLink
                         class="hidden xl:block xl:mx-3 my-2 hover:decoration-brand-blue hover:underline hover:underline-offset-4 hover:decoration-2 text-base text-nowrap transition duration-700 ease-in-out"
                         to="/agencies">
-                        Para agências
+                        {{ $t("agencies") }}
                     </NuxtLink>
                     <p class="hidden xl:block xl:mx-3 my-2 text-brand-blue font-semibold"></p>
                     <NuxtLink
                         class="hidden xl:block xl:ml-10 xl:mr-8 my-2 px-5 py-4 text-base rounded-full bg-brand-blue text-white text-nowrap transition duration-700 ease-in-out hover:text-brand-blue hover:bg-white"
                         to="/contact">
-                        Fale conosco
+                        {{ $t("contact") }}
                     </NuxtLink>
                 </div>
             </div>

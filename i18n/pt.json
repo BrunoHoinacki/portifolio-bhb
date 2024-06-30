@@ -1,12 +1,17 @@
 {
   "pt": {
     "about": "O que fazemos",
+    "about?": "O que fazemos?",
     "cases": "Cases",
     "agencies": "Para agências",
     "contact": "Fale conosco",
     "title-1": "Soluções digitais de",
     "title-2": "alta performance.",
+    "title-3": "Essas marcas acreditam no nosso DNA.",
+    "title-4": "Agencia especializada em ",
+    "title-5": "Laravel e Vue.js",
     "dna": "nosso dna é digital",
+    "read-cases": "Conheça os cases",
     "description": "A Elleven é uma software house especializada no desenvolvimento de projetos digitais com foco em usabilidade e conversão. Reunimos profissionais criativos, qualificados e com anos de experiência para garantirmos excelência em cada etapa do projeto."
   }
 }

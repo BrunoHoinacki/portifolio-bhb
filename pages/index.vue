@@ -103,16 +103,17 @@
           </div>
         </div>
         <div class="flex flex-wrap justify-between">
-          <div class="w-full xl:w-1/4 xl:flex xl:flex-col xl:justify-center">
+          <div class="w-full xl:w-1/4 xl:flex xl:flex-col xl:justify-center pr-1">
             <div
               class="w-full mb-10 text-brand-blue text-4xl text-left tracking-tighter font-space-grotesk xl:whitespace-normal xl:break-words">
-              <p>Essas marcas acreditam no nosso DNA.</p>
+              <p>{{ $t("title-3") }}</p>
             </div>
             <div class="w-full text-white text-lg mb-10 font-sans xl:whitespace-normal">
               <NuxtLink to="/projects" class="flex items-center">
                 <p
                   class="underline decoration-2 underline-offset-8 hover:decoration-brand-blue transition duration-700 ease-in-out hover:pr-1">
-                  Conheça os cases</p>
+                  {{ $t("read-cases") }}
+                </p>
                 <i class="fa-solid fa-arrow-right ml-2 text-brand-blue"></i>
               </NuxtLink>
             </div>
@@ -136,7 +137,7 @@
     <div class="bg-white px-6 xl:px-24">
       <div class="h-full">
         <div class="text-3xl xl:text-6xl w-full pb-4 font-extralight text-black xl:pt-28 pt-16 font-space-grotesk">
-          <p>Agencia especializada em <strong class="font-extrabold">Laravel e Vue.JS</strong></p>
+          <p>{{ $t("title-4") }}<strong class="font-extrabold">{{ $t("title-5") }}</strong></p>
         </div>
         <div class="flex xl:flex-row flex-col justify-between gap-x-16 pb-16">
           <div class="flex flex-col flex-grow h-full">
@@ -151,7 +152,8 @@
             <NuxtLink to="/projects" class="flex items-center pt-4">
               <p
                 class="text-brand-blue hover:decoration-brand-blue hover:underline hover:decoration-2 hover:underline-offset-4 transition duration-700 ease-in-out hover:pr-1">
-                O que fazemos?</p>
+                {{ $t("about?") }}
+              </p>
               <i class="fa-solid fa-arrow-right ml-2 text-brand-blue"></i>
             </NuxtLink>
           </div>
@@ -167,7 +169,8 @@
             <NuxtLink to="/projects" class="flex items-center pt-4">
               <p
                 class="text-brand-blue hover:decoration-brand-blue hover:underline hover:decoration-2 hover:underline-offset-4 transition duration-700 ease-in-out hover:pr-1">
-                O que fazemos?</p>
+                {{ $t("about?") }}
+              </p>
               <i class="fa-solid fa-arrow-right ml-2 text-brand-blue"></i>
             </NuxtLink>
           </div>
@@ -182,7 +185,8 @@
             <NuxtLink to="/projects" class="flex items-center pt-4">
               <p
                 class="text-brand-blue hover:decoration-brand-blue hover:underline hover:decoration-2 hover:underline-offset-4 transition duration-700 ease-in-out hover:pr-1">
-                O que fazemos?</p>
+                {{ $t("about?") }}
+              </p>
               <i class="fa-solid fa-arrow-right ml-2 text-brand-blue"></i>
             </NuxtLink>
           </div>
