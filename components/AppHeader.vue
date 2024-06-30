@@ -12,7 +12,7 @@
                     <NuxtLink
                         class="hidden xl:block xl:mx-3 my-2 hover:decoration-brand-blue hover:underline hover:underline-offset-4 hover:decoration-2 text-base text-nowrap transition duration-700 ease-in-out"
                         to="/about">
-                        O que fazemos
+                        {{ $t("about") }}
                     </NuxtLink>
                     <p class="hidden xl:block xl:mx-3 my-2 text-brand-blue">•</p>
                     <NuxtLink
@@ -32,9 +32,15 @@
                         to="/contact">
                         Fale conosco
                     </NuxtLink>
-                    <NuxtLink to="" class="hidden xl:block xl:mx-4 text-base hover:text-brand-blue">PT</NuxtLink>
-                    <NuxtLink to="" class="hidden xl:block xl:mx-4 text-base hover:text-brand-blue">ES</NuxtLink>
-                    <NuxtLink to="" class="hidden xl:block xl:mx-4 text-base hover:text-brand-blue">EN</NuxtLink>
+                    <button :class="{ 'text-brand-blue': locale === 'pt', 'hover:text-brand-blue': locale !== 'pt' }"
+                        @click="changeLocale('pt')"
+                        class="hidden xl:block xl:mx-4 text-base hover:text-brand-blue">PT</button>
+                    <button :class="{ 'text-brand-blue': locale === 'es', 'hover:text-brand-blue': locale !== 'es' }"
+                        @click="changeLocale('es')"
+                        class="hidden xl:block xl:mx-4 text-base hover:text-brand-blue">ES</button>
+                    <button :class="{ 'text-brand-blue': locale === 'en', 'hover:text-brand-blue': locale !== 'en' }"
+                        @click="changeLocale('en')"
+                        class="hidden xl:block xl:mx-4 text-base hover:text-brand-blue">EN</button>
                 </div>
                 <div class="xl:hidden block">
                     <button @click="$emit('toggle-menu')" class="text-brand-blue hover:text-blue-700">
@@ -50,8 +56,13 @@
     </header>
 </template>
 
-<script>
-export default {
-    name: 'AppHeader',
+<script setup>
+import { useI18n } from 'vue-i18n';
+
+const { locale } = useI18n();
+
+// Método para trocar o idioma
+const changeLocale = (newLocale) => {
+    locale.value = newLocale;
 };
 </script>

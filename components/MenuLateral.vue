@@ -2,14 +2,14 @@
     <div class="w-screen h-screen z-50 pt-32 px-12 pb-16">
         <div class="flex flex-row">
             <div class="space-x-10">
-                <NuxtLink to="" class="text-xl hover:text-brand-blue">PT</NuxtLink>
-                <NuxtLink to="" class="text-xl hover:text-brand-blue">ES</NuxtLink>
-                <NuxtLink to="" class="text-xl hover:text-brand-blue">EN</NuxtLink>
+                <button class="text-xl hover:text-brand-blue">PT</button>
+                <button class="text-xl hover:text-brand-blue">ES</button>
+                <button class="text-xl hover:text-brand-blue">EN</button>
             </div>
         </div>
         <div class="pt-16">
             <div class="space-y-7 flex flex-col">
-                <NuxtLink to="/about" class="text-3xl hover:text-brand-blue">O que fazemos</NuxtLink>
+                <NuxtLink to="/about" class="text-3xl hover:text-brand-blue">{{ $t("about") }}</NuxtLink>
                 <NuxtLink to="/projects" class="text-3xl hover:text-brand-blue">Cases</NuxtLink>
                 <NuxtLink to="/agencies" class="text-3xl hover:text-brand-blue">Para agências</NuxtLink>
                 <NuxtLink to="/contact" class="text-3xl hover:text-brand-blue">Fale conosco</NuxtLink>
@@ -30,8 +30,6 @@
     </div>
 </template>
 
-<script lang="ts" setup>
+<script setup>
 
 </script>
-
-<style></style>

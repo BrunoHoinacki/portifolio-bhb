@@ -82,11 +82,6 @@
     </div>
 </template>
 
-<script>
-import WhatsAppCTA from '@/components/WhatsAppCTA.vue';
-export default {
-    components: {
-        WhatsAppCTA
-    }
-}
+<script setup>
+
 </script>

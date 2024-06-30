@@ -1,7 +1,15 @@
 // nuxt.config.js
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: ["@nuxt/ui"],
+  modules: [
+    '@nuxt/ui',
+    [
+      '@nuxtjs/i18n',
+      {
+        vueI18n: './i18n',
+      },
+    ],
+  ],
   app: {
     pageTransition: { name: 'page', mode: 'out-in' },
     head: {
