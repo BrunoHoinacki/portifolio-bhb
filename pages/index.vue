@@ -137,7 +137,7 @@
         </div>
       </div>
     </div>
-    <div class="bg-white px-6 xl:px-20">
+    <div class="bg-white px-6 xl:px-24">
       <div class="h-full">
         <div class="text-3xl xl:text-6xl w-full pb-4 font-extralight text-black xl:pt-28 pt-16"
           style="font-family: 'Space Grotesk', sans-serif;">
