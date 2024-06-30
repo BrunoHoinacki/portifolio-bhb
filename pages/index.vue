@@ -180,7 +180,7 @@
               <h2 class="text-2xl text-black pl-4 font-bold">Integrações entre sistemas</h2>
             </div>
             <p class="text-lg text-slate-600 pt-6">
-              Realizamos a integramos com sistemas de gestão de vendas, contabilidade, financeiro e marketing.
+              Realizamos integrações entre sistemas como sistemas de gestão de vendas,reservas, contabilidade, financeiro e marketing.
             </p>
             <NuxtLink to="/projects" class="flex items-center pt-4">
               <p
