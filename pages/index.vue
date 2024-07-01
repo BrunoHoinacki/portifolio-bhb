@@ -215,11 +215,10 @@
           <div class="flex-shrink-0 flex flex-col flex-grow h-[22rem] w-80 border-brand-blue border rounded-xl p-4">
             <div class="flex flex-row items-center h-10">
               <i class="fa-solid fa-broom text-white bg-brand-blue rounded-full p-5"></i>
-              <h2 class="text-2xl items-center text-black pl-4 font-bold">UI/UX Design</h2>
+              <h2 class="text-2xl items-center text-black pl-4 font-bold">Desenvolvimento em CMS</h2>
             </div>
             <p class="text-lg text-slate-600 pt-6 h-[15rem]">
-              Refinamos a experiência do usuário (UX) para seu produto ou serviço. Com design centrado no usuário,
-              criamos interfaces intuitivas e cativantes para garantir interações eficientes e satisfatórias.
+              Medianta a necessidade do cliente desenvolvemos em CMS (WordPress, Squarespace, Shopify, etc).<br/>Criamos com plugins, integrações e aprimoramentos.
             </p>
             <NuxtLink to="/projects" class="flex items-center pt-4">
               <p
