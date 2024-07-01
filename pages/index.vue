@@ -136,16 +136,20 @@
     </div>
     <div class="bg-white px-6 xl:px-24">
       <div class="h-full">
-        <div class="text-3xl xl:text-6xl w-full pb-4 font-extralight text-black xl:pt-28 pt-16 font-space-grotesk">
-          <p>{{ $t("title-4") }}<strong class="font-extrabold">{{ $t("title-5") }}</strong></p>
+        <div class="text-3xl lg:text-6xl w-full pb-4 font-extralight text-black lg:pt-28 pt-16 font-space-grotesk">
+          <p>{{ $t("title-4") }}<strong class="font-extrabold underline decoration-brand-blue underline-offset-8 decoration-2">{{ $t("title-5") }}</strong></p>
         </div>
-        <div class="flex xl:flex-row flex-col justify-between gap-x-16 pb-16 overflow-x-scroll overflow-y-hidden">
-          <div class="flex flex-col flex-grow h-full">
-            <div class="flex flex-row mt-12 items-center h-10">
+
+        <!-- Card Servicos -->
+        <div
+          class="flex lg:flex-row flex-col lg:justify-between items-center lg:gap-x-12 gap-y-6 pb-16 pt-8 lg:pt-16 lg:overflow-x-scroll lg:overflow-y-hidden">
+          <div class="flex-shrink-0 flex flex-col flex-grow h-[22rem] w-80 border-brand-blue border rounded-xl p-4">
+            <div class="flex flex-row items-center h-10">
               <i class="fa-solid fa-laptop-code text-white bg-brand-blue rounded-full p-5"></i>
               <h2 class="text-2xl text-black pl-4 font-bold">Desenvolvimento de Sites</h2>
             </div>
-            <p class="text-lg text-slate-600 pt-6">Desenvolvemos sites independente da tecnologia. Com design atraente,
+            <p class="text-lg text-slate-600 pt-6 h-[15rem]">
+              Desenvolvemos sites independente da tecnologia. Com design atraente,
               funcionalidades avançadas e alta performance, garantimos uma presença online de destaque para o seu
               negócio.
             </p>
@@ -157,30 +161,14 @@
               <i class="fa-solid fa-arrow-right ml-2 text-brand-blue"></i>
             </NuxtLink>
           </div>
-          <div class="flex flex-col flex-grow h-full mt-8 xl:mt-0">
-            <div class="flex flex-row mt-12 items-center h-10">
+          <div class="flex-shrink-0 flex flex-col flex-grow h-[22rem] w-80 border-brand-blue border rounded-xl p-4">
+            <div class="flex flex-row items-center h-10">
               <i class="fa-solid fa-store text-white bg-brand-blue rounded-full p-5"></i>
-              <h2 class="text-2xl text-black pl-4 font-bold">Desenvolvimento de Lojas Virtuais</h2>
+              <h2 class="text-2xl items-center text-black pl-4 font-bold">Desenvolvimento de Lojas Virtuais</h2>
             </div>
-            <p class="text-lg text-slate-600 pt-6">Oferecemos serviços especializados de criação de lojas virtuais com
-              Laravel. Nossa equipe altamente qualificada garante projetos excepcionais, desde a configuração inicial
-              até
-              a personalização avançada.</p>
-            <NuxtLink to="/projects" class="flex items-center pt-4">
-              <p
-                class="text-brand-blue hover:decoration-brand-blue hover:underline hover:decoration-2 hover:underline-offset-4 transition duration-700 ease-in-out hover:pr-1">
-                {{ $t("about?") }}
-              </p>
-              <i class="fa-solid fa-arrow-right ml-2 text-brand-blue"></i>
-            </NuxtLink>
-          </div>
-          <div class="flex flex-col flex-grow h-full mt-8 xl:mt-0">
-            <div class="flex flex-row mt-12 items-center h-10">
-              <i class="fa-solid fa-network-wired text-white bg-brand-blue rounded-full p-5"></i>
-              <h2 class="text-2xl text-black pl-4 font-bold">Integrações entre sistemas</h2>
-            </div>
-            <p class="text-lg text-slate-600 pt-6">
-              Realizamos integrações entre sistemas como sistemas de gestão de vendas, reservas, contabilidade, financeiro e marketing.
+            <p class="text-lg text-slate-600 pt-6 h-[15rem]">
+              Oferecemos serviços especializados de criação de lojas virtuais com Laravel. Nossa equipe altamente
+              qualificada garante projetos excepcionais, desde a configuração inicial até a personalização avançada.
             </p>
             <NuxtLink to="/projects" class="flex items-center pt-4">
               <p
@@ -190,14 +178,49 @@
               <i class="fa-solid fa-arrow-right ml-2 text-brand-blue"></i>
             </NuxtLink>
           </div>
-          <div class="flex flex-col flex-grow h-full mt-8 xl:mt-0">
-            <div class="flex flex-row mt-12 items-center h-10">
-              <i class="fa-solid fa-broom text-white bg-brand-blue rounded-full p-5"></i>
-              <h2 class="text-2xl text-black pl-4 font-bold">UI/UX Design</h2>
+          <div class="flex-shrink-0 flex flex-col flex-grow h-[22rem] w-80 border-brand-blue border rounded-xl p-4">
+            <div class="flex flex-row items-center h-10">
+              <i class="fa-solid fa-network-wired text-white bg-brand-blue rounded-full p-5"></i>
+              <h2 class="text-2xl items-center text-black pl-4 font-bold">Integrações entre sistemas</h2>
             </div>
-            <p class="text-lg text-slate-600 pt-6">Refinamos a experiência do usuário (UX) para seu produto ou serviço.
-              Com design centrado no usuário, criamos interfaces intuitivas e cativantes para garantir interações
-              eficientes e satisfatórias.</p>
+            <p class="text-lg text-slate-600 pt-6 h-[15rem]">
+              Realizamos integrações entre sistemas como sistemas de gestão de vendas, reservas, contabilidade,
+              financeiro e marketing.
+            </p>
+            <NuxtLink to="/projects" class="flex items-center pt-4">
+              <p
+                class="text-brand-blue hover:decoration-brand-blue hover:underline hover:decoration-2 hover:underline-offset-4 transition duration-700 ease-in-out hover:pr-1">
+                {{ $t("about?") }}
+              </p>
+              <i class="fa-solid fa-arrow-right ml-2 text-brand-blue"></i>
+            </NuxtLink>
+          </div>
+          <div class="flex-shrink-0 flex flex-col flex-grow h-[22rem] w-80 border-brand-blue border rounded-xl p-4">
+            <div class="flex flex-row items-center h-10">
+              <i class="fa-solid fa-broom text-white bg-brand-blue rounded-full p-5"></i>
+              <h2 class="text-2xl items-center text-black pl-4 font-bold">UI/UX Design</h2>
+            </div>
+            <p class="text-lg text-slate-600 pt-6 h-[15rem]">
+              Refinamos a experiência do usuário (UX) para seu produto ou serviço. Com design centrado no usuário,
+              criamos interfaces intuitivas e cativantes para garantir interações eficientes e satisfatórias.
+            </p>
+            <NuxtLink to="/projects" class="flex items-center pt-4">
+              <p
+                class="text-brand-blue hover:decoration-brand-blue hover:underline hover:decoration-2 hover:underline-offset-4 transition duration-700 ease-in-out hover:pr-1">
+                {{ $t("about?") }}
+              </p>
+              <i class="fa-solid fa-arrow-right ml-2 text-brand-blue"></i>
+            </NuxtLink>
+          </div>
+          <div class="flex-shrink-0 flex flex-col flex-grow h-[22rem] w-80 border-brand-blue border rounded-xl p-4">
+            <div class="flex flex-row items-center h-10">
+              <i class="fa-solid fa-broom text-white bg-brand-blue rounded-full p-5"></i>
+              <h2 class="text-2xl items-center text-black pl-4 font-bold">UI/UX Design</h2>
+            </div>
+            <p class="text-lg text-slate-600 pt-6 h-[15rem]">
+              Refinamos a experiência do usuário (UX) para seu produto ou serviço. Com design centrado no usuário,
+              criamos interfaces intuitivas e cativantes para garantir interações eficientes e satisfatórias.
+            </p>
             <NuxtLink to="/projects" class="flex items-center pt-4">
               <p
                 class="text-brand-blue hover:decoration-brand-blue hover:underline hover:decoration-2 hover:underline-offset-4 transition duration-700 ease-in-out hover:pr-1">
