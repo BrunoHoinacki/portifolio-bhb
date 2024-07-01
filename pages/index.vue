@@ -1,13 +1,13 @@
 <template>
   <div>
     <div class="bg-black pt-28 px-6 xl:px-14 pb-28">
-      <div class="flex flex-col items-center justify-start h-full text-white md:px-16 pt-6 xl:pt-0 xl:pl-10">
-        <div class="text-5xl xl:text-[7rem] w-full pb-4 font-extralight font-space-grotesk">
+      <div class="flex flex-col items-center justify-start h-full text-white md:px-16 pt-6 lg:pt-0 lg:pl-10">
+        <div class="text-5xl lg:text-[6rem] xl:text-[7rem] w-full pb-4 font-extralight font-space-grotesk">
           <p>{{ $t("title-1") }}</p>
           <p class="underline decoration-brand-blue decoration-4 underline-offset-8">{{ $t("title-2") }}</p>
         </div>
-        <div class="flex xl:flex-row flex-col items-center">
-          <div class="xl:flex flex-col items-center mt-8 basis-1/4 hidden">
+        <div class="flex lg:flex-row flex-col items-center">
+          <div class="lg:flex flex-col items-center mt-8 basis-2/4 hidden">
             <div class="flex flex-col items-center">
               <div class="flex flex-row space-x-16 mb-6">
                 <div class="w-1 h-1 bg-brand-blue rounded-full"></div>
@@ -37,14 +37,14 @@
               <span class="text-brand-blue text-xl mx-1">&lt; / &gt;</span>
             </div>
           </div>
-          <div class="xl:hidden flex mt-8 w-full justify-center">
-            <div class="flex items-center justify-center flex-nowrap">
+          <div class="lg:hidden flex mt-8 w-full justify-center">
+            <div class="flex items-center justify-center flex-nowrap whitespace-nowrap">
               <span class="text-brand-blue text-2xl mx-1 whitespace-nowrap">&lt; / &gt;</span>
               <span class="text-white text-2xl mx-1 whitespace-nowrap">{{ $t("dna") }}</span>
               <span class="text-brand-blue text-2xl mx-1 whitespace-nowrap">&lt; / &gt;</span>
             </div>
           </div>
-          <div class="flex mt-8 basis-1/2 xl:ml-52">
+          <div class="flex mt-8 basis-2/3 xl:ml-52">
             <p class="xl:px-4 text-base leading-6 lg:text-xl text-justify">
               {{ $t("description") }}
             </p>
@@ -103,12 +103,12 @@
           </div>
         </div>
         <div class="flex flex-wrap justify-between">
-          <div class="w-full xl:w-1/4 xl:flex xl:flex-col xl:justify-center pr-1">
+          <div class="w-full lg:w-1/4 lg:flex lg:flex-col lg:justify-center pr-1">
             <div
-              class="w-full mb-10 text-brand-blue text-4xl text-left tracking-tighter font-space-grotesk xl:whitespace-normal xl:break-words">
+              class="w-full mb-10 text-brand-blue text-4xl text-left tracking-tighter font-space-grotesk lg:whitespace-normal lg:break-words">
               <p>{{ $t("title-3") }}</p>
             </div>
-            <div class="w-full text-white text-lg mb-10 font-sans xl:whitespace-normal">
+            <div class="w-full text-white text-lg mb-10 font-sans lg:whitespace-normal">
               <NuxtLink to="/projects" class="flex items-center">
                 <p
                   class="underline decoration-2 underline-offset-8 hover:decoration-brand-blue transition duration-700 ease-in-out hover:pr-1">
@@ -118,9 +118,9 @@
               </NuxtLink>
             </div>
           </div>
-          <div class="w-full xl:w-3/4 xl:flex xl:flex-col xl:justify-center">
+          <div class="w-full lg:w-3/4 lg:flex lg:flex-col lg:justify-center">
             <div
-              class="w-full h-32 xl:h-28 mt-8 lx:mb-28 border-brand-blue border-l-2 overflow-hidden flex items-center">
+              class="w-full h-32 lg:h-28 mt-8 lx:mb-28 border-brand-blue border-l-2 overflow-hidden flex items-center">
               <div class="image-container flex">
                 <img src="~/assets/logos/logo-text-white.png" alt="">
                 <img src="~/assets/logos/logo-text-white.png" alt="">

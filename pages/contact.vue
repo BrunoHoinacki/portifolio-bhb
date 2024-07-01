@@ -1,6 +1,6 @@
 <template>
-    <div class="px-4 pt-28 pb-20">
-        <div class="container mx-auto flex flex-wrap justify-between items-start md:pt-2">
+    <div class="bg-black pt-28 px-6 lg:px-16 pb-28 h-screen">
+        <div class="flex flex-wrap justify-between items-start md:pt-2">
             <div class="rounded-lg w-full lg:w-1/2 mb-3 lg:mb-0">
                 <h1 class="text-3xl font-semibold mb-6">Contate-me</h1>
                 <p class="mb-4">Precisa de ajuda?</p>
